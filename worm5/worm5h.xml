@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MorpheusModel version="4">
+    <Time>
+        <StartTime value="1500"/>
+        <StopTime value="10001500" symbol="tmax"/>
+        <TimeSymbol symbol="time"/>
+        <RandomSeed value="123456"/>
+        <SaveInterval value="1500"/>
+    </Time>
+    <Description>
+        <Details>Attractant-only Keller-Segel model, 0.5 cm x 0.5 cm.</Details>
+        <Title>worm5h</Title>
+    </Description>
+    <Space>
+        <Lattice class="square">
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+            <Size value="192, 192, 0" symbol="size"/>
+            <BoundaryConditions>
+                <Condition type="periodic" boundary="x"/>
+                <Condition type="periodic" boundary="y"/>
+            </BoundaryConditions>
+            <NodeLength value="0.0026041666666666665" symbol="dx"/>
+        </Lattice>
+        <SpaceSymbol symbol="space"/>
+    </Space>
+    <Analysis>
+        <ModelGraph include-tags="#untagged" format="svg" reduced="false"/>
+        <Gnuplotter time-step="treport" file-numbering="time" decorate="true" name="fields">
+            <Plot>
+                <Cells/>
+                <Field symbol-ref="V"/>
+            </Plot>
+            <Terminal size="2000,2000,0" name="png"/>
+            <Plot>
+                <Field symbol-ref="Ua"/>
+            </Plot>
+        </Gnuplotter>
+        <Logger time-step="treport">
+            <Input>
+                <Symbol symbol-ref="cell.id"/>
+                <Symbol symbol-ref="cell.center.x"/>
+                <Symbol symbol-ref="cell.center.y"/>
+                <Symbol symbol-ref="delta_r.x"/>
+                <Symbol symbol-ref="delta_r.y"/>
+                <Symbol symbol-ref="MKtemp"/>
+                <Symbol symbol-ref="MKtime"/>
+                <Symbol symbol-ref="cmstrength"/>
+            </Input>
+            <Output>
+                <TextOutput separator="comma" header="true" file-numbering="time" file-format="csv" file-name="worms"/>
+            </Output>
+        </Logger>
+        <Logger time-step="treport">
+            <Input>
+                <Symbol symbol-ref="space.x"/>
+                <Symbol symbol-ref="space.y"/>
+                <Symbol symbol-ref="Ua"/>
+                <Symbol symbol-ref="Va"/>
+                <Symbol symbol-ref="V"/>
+            </Input>
+            <Output>
+                <TextOutput separator="comma" header="true" file-numbering="time" file-format="csv" file-name="UaUr"/>
+            </Output>
+        </Logger>
+        <Gnuplotter time-step="treport" file-numbering="time" decorate="true" name="Vplot">
+            <Plot>
+                <Field symbol-ref="V"/>
+            </Plot>
+            <Terminal size="2000,2000,0" name="png"/>
+            <Plot>
+                <Field symbol-ref="Va"/>
+            </Plot>
+        </Gnuplotter>
+    </Analysis>
+    <CPM>
+        <Interaction>
+            <Contact type2="worm" value="wormtoworm" type1="worm"/>
+            <Contact type2="medium" value="wormtomedium" type1="worm"/>
+        </Interaction>
+        <ShapeSurface scaling="norm">
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+        </ShapeSurface>
+        <MonteCarloSampler stepper="edgelist">
+            <MCSDuration value="0.15" symbol="MKtime"/>
+            <MetropolisKinetics temperature="MKtemp"/>
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+        </MonteCarloSampler>
+    </CPM>
+    <CellTypes>
+        <CellType class="biological" name="worm">
+            <ConnectivityConstraint/>
+            <VolumeConstraint target="cellvolume" strength="1"/>
+            <MotilityReporter time-step="1000" name="worm_motility">
+                <Displacement symbol-ref="delta_r"/>
+                <Velocity symbol-ref="vel"/>
+            </MotilityReporter>
+            <PropertyVector value="0.0, 0.0, 0.0" symbol="vel"/>
+            <PropertyVector value="0.0, 0.0, 0.0" symbol="delta_r"/>
+            <Chemotaxis strength="cmstrength" field="-V"/>
+            <Property value="sa/wormvolume" symbol="gridsa"/>
+        </CellType>
+        <CellType class="medium" name="medium">
+            <PropertyVector value="0.0, 0.0, 0.0" symbol="delta_r"/>
+            <PropertyVector value="0.0, 0.0, 0.0" symbol="vel"/>
+            <Property value="0" symbol="gridsa"/>
+        </CellType>
+    </CellTypes>
+    <CellPopulations>
+        <Population type="worm" size="360">
+            <InitRectangle mode="random" number-of-cells="Nworms">
+                <Dimensions size="size.x, size.y, size.z" origin="0.0, 0.0, 0.0"/>
+            </InitRectangle>
+        </Population>
+    </CellPopulations>
+    <Global>
+        <Constant value="1500" symbol="treport"/>
+        <Constant value="size.x*dx" symbol="width" name="width"/>
+        <Constant value="MKtime" symbol="dt"/>
+        <Constant value="size.x" symbol="nelements" name="nelements"/>
+        <Constant value="1" symbol="sweep" name="sweep"/>
+        <Constant value="10.0" symbol="MKtemp"/>
+        <Field value="0.0" symbol="Ua" name="attractant">
+            <Diffusion rate="1e-6"/>
+        </Field>
+        <Constant value="MKtemp" symbol="mu"/>
+        <Constant value="mu" symbol="cmstrength"/>
+        <Constant value="0.0" symbol="wormtoworm"/>
+        <Constant value="0.0" symbol="wormtomedium"/>
+        <Constant value="5" symbol="cellvolume"/>
+        <Constant value="cellvolume*dx*dx" symbol="wormvolume"/>
+        <Constant value="9000" symbol="rho_bar"/>
+        <Constant value="width*width*rho_bar" symbol="Nworms"/>
+        <ConstantVector value="0.0, 0.0, 0.0" symbol="delta_r"/>
+        <ConstantVector value="0.0, 0.0, 0.0" symbol="vel"/>
+        <System solver="Dormand-Prince [adaptive, O(5)]">
+            <DiffEqn symbol-ref="Ua">
+                <Expression>gridsa - gamma_a*Ua</Expression>
+            </DiffEqn>
+            <Constant value="0.01" symbol="gamma_a"/>
+            <Rule symbol-ref="Va">
+                <Expression>-beta_a*log(alpha_a + Ua)</Expression>
+            </Rule>
+            <Rule symbol-ref="Vaos2">
+                <Expression>Va + beta_a*log(alpha_a)</Expression>
+            </Rule>
+            <Rule symbol-ref="V">
+                <Expression>Va</Expression>
+            </Rule>
+            <Rule symbol-ref="Vos2">
+                <Expression>Vaos2</Expression>
+            </Rule>
+        </System>
+        <Constant value="0.01" symbol="sa"/>
+        <Constant value="5.55555e-6" symbol="s2"/>
+        <Constant value="1500" symbol="alpha_a"/>
+        <Constant value="2" symbol="beta_a"/>
+        <Field value="-beta_a*log(alpha_a + Ua)" symbol="Va" name="Attractant potential"/>
+        <Field value="Va + beta_a*log(alpha_a)" symbol="Vaos2" name="Normalized Va"/>
+        <Field value="Va" symbol="V" name="Combined potential"/>
+        <Field value="Vaos2" symbol="Vos2" name="Normalized potential"/>
+    </Global>
+</MorpheusModel>
