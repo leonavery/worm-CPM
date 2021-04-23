@@ -1,0 +1,102 @@
+digraph {
+compound=true;
+subgraph cluster{
+labelloc="t";label="Global";bgcolor="#2341782f"
+node[style=filled,fillcolor="#fffea3"]
+CPM_0_1 [shape=plaintext, label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3">  <tr><td>CPM</td></tr><hr/><tr><td>1</td></tr></table></font>>, URL="morph://MorpheusModel/CPM" ]
+Gnuplotter_0_10000[ shape=plaintext,  margin="0", label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>Gnuplotter</td></tr>
+<hr/>
+<tr><td>10000</td></tr></table></font>>, URL="morph://MorpheusModel/Analysis/Gnuplotter" ]
+Logger_0_10000[ shape=plaintext,  margin="0", label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>Logger</td></tr>
+<hr/>
+<tr><td>10000</td></tr></table></font>>, URL="morph://MorpheusModel/Analysis/Logger" ]
+MKtemp_0[label="MKtemp", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[3]"]
+Ua_0[label="Ua", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Field"]
+cell_center_0[label="cell.center", fillcolor="#b5b426",peripheries=2]
+cell_center_x_0[label="cell.center.x", fillcolor="#d3d247"]
+cell_center_y_0[label="cell.center.y", fillcolor="#d3d247"]
+cell_type_0[label="cell.type", fillcolor="#d3d247",peripheries=2]
+cmstrength_0[label="cmstrength", fillcolor="#d3d247", URL="morph://MorpheusModel/Global/Constant[4]"]
+delta_r_0[label="delta_r", fillcolor="#b5b426",peripheries=2]
+delta_r_x_0[label="delta_r.x", fillcolor="#d3d247"]
+delta_r_y_0[label="delta_r.y", fillcolor="#d3d247"]
+subgraph cluster_1 {
+label="CellType[worm]";
+MotilityReporter_11480696856280444441[ shape=plaintext,  margin="0", label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center">
+<tr><td>MotilityReporter</td></tr>
+<tr><td><I>"worm_motility"</I></td></tr>
+<hr/>
+<tr><td>1000</td></tr></table></font>>, URL="morph://MorpheusModel/CellTypes/CellType[0]/MotilityReporter" ]
+subgraph cluster_cpm1 {
+label="CPM plugins";
+Chemotaxis_1[ shape=plaintext,  margin="0", label=<<font face="times" point-size="15"><table cellborder="0" border="1" cellspacing="0" cellpadding="3" align="center" >
+  <tr><td>Chemotaxis</td></tr>
+</table></font>>, URL="morph://MorpheusModel/CellTypes/CellType[0]/Chemotaxis"];
+}
+cell_center_1[label="cell.center", fillcolor="#b5b426"]
+cell_type_1[label="cell.type", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[0]"]
+delta_r_1[label="delta_r", fillcolor="#b5b426", URL="morph://MorpheusModel/CellTypes/CellType[0]/PropertyVector[1]"]
+vel_1[label="vel", fillcolor="#b5b426", URL="morph://MorpheusModel/CellTypes/CellType[0]/PropertyVector[0]"]
+}
+subgraph cluster_2 {
+label="CellType[medium]";
+cell_center_2[label="cell.center", fillcolor="#b5b426"]
+cell_type_2[label="cell.type", fillcolor="#d3d247", URL="morph://MorpheusModel/CellTypes/CellType[1]"]
+}
+subgraph cluster_3 {
+label="CellType[Medium]";
+}
+}
+CPM_0_1 -> Chemotaxis_1 [dir=none, style="dashed", penwidth=1, color="#38568c",lhead=cluster_cpm1] 
+
+CPM_0_1 -> cell_center_0 [penwidth=3, color="#8f100d"] 
+
+CPM_0_1 -> cell_type_0 [penwidth=3, color="#8f100d"] 
+
+MKtemp_0 -> Logger_0_10000 [penwidth=2, color="#112c5f"] 
+
+MotilityReporter_11480696856280444441 -> delta_r_1 [penwidth=3, color="#8f100d"] 
+
+MotilityReporter_11480696856280444441 -> vel_1 [penwidth=3, color="#8f100d"] 
+
+Ua_0 -> Chemotaxis_1 [penwidth=2, color="#112c5f"] 
+
+Ua_0 -> Gnuplotter_0_10000 [penwidth=2, color="#112c5f"] 
+
+cell_center_0 -> cell_center_x_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_center_0 -> cell_center_y_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_center_1 -> MotilityReporter_11480696856280444441 [penwidth=2, color="#112c5f"] 
+
+cell_center_1 -> cell_center_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_center_2 -> cell_center_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_center_x_0 -> Logger_0_10000 [penwidth=2, color="#112c5f"] 
+
+cell_center_y_0 -> Logger_0_10000 [penwidth=2, color="#112c5f"] 
+
+cell_type_0 -> Gnuplotter_0_10000 [penwidth=2, color="#112c5f"] 
+
+cell_type_1 -> cell_type_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cell_type_2 -> cell_type_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+cmstrength_0 -> Chemotaxis_1 [penwidth=2, color="#112c5f"] 
+
+cmstrength_0 -> Logger_0_10000 [penwidth=2, color="#112c5f"] 
+
+delta_r_0 -> delta_r_x_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+delta_r_0 -> delta_r_y_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+delta_r_1 -> delta_r_0 [dir=none, style="dashed", penwidth=1, color="#38568c"] 
+
+delta_r_x_0 -> Logger_0_10000 [penwidth=2, color="#112c5f"] 
+
+delta_r_y_0 -> Logger_0_10000 [penwidth=2, color="#112c5f"] 
+
+}

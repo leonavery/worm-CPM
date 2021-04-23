@@ -1,0 +1,4 @@
+include Params.mk
+
+plot_$(TFINAL).png: ../../$(MORPHEUSFILE)
+	$(MORPHEUS) -f $(MORPHEUSFILE)

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="612pt" height="579pt" viewBox="0.00 0.00 612.00 578.60">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 574.6)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-574.6 608,-574.6 608,4 -4,4"></polygon>
+<g id="clust1" class="cluster">
+<title>cluster</title>
+<polygon fill="#234178" fill-opacity="0.184314" stroke="#000000" points="8,-8 8,-562.6 596,-562.6 596,-8 8,-8"></polygon>
+<text text-anchor="middle" x="302" y="-546" font-family="Times,serif" font-size="14.00" fill="#000000">Global</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_1</title>
+<polygon fill="#234178" fill-opacity="0.184314" stroke="#000000" points="364,-253 364,-529.8 588,-529.8 588,-253 364,-253"></polygon>
+<text text-anchor="middle" x="476" y="-513.2" font-family="Times,serif" font-size="14.00" fill="#000000">CellType[worm]</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_2</title>
+<polygon fill="#234178" fill-opacity="0.184314" stroke="#000000" points="132,-453 132,-529.8 356,-529.8 356,-453 132,-453"></polygon>
+<text text-anchor="middle" x="244" y="-513.2" font-family="Times,serif" font-size="14.00" fill="#000000">CellType[medium]</text>
+</g>
+<!-- CPM_0_1 -->
+<g id="node1" class="node">
+<title>CPM_0_1</title>
+<g id="a_node1">
+<polygon fill="#fffea3" stroke="transparent" points="122.5,-508 67.5,-508 67.5,-450 122.5,-450 122.5,-508"></polygon>
+<text text-anchor="start" x="79.6623" y="-486.5" font-family="times" font-size="15.00" fill="#000000">CPM</text>
+<text text-anchor="start" x="91.75" y="-462.5" font-family="times" font-size="15.00" fill="#000000">1</text>
+<polygon fill="#000000" stroke="#000000" points="76,-479 76,-479 115,-479 115,-479 76,-479"></polygon>
+<polygon fill="none" stroke="#000000" points="75.5,-454 75.5,-504 114.5,-504 114.5,-454 75.5,-454"></polygon>
+</g>
+</g>
+<!-- cell_center_0 -->
+<g id="node5" class="node">
+<title>cell_center_0</title>
+<ellipse fill="#b5b426" stroke="#000000" cx="187" cy="-377" rx="50.9588" ry="18"></ellipse>
+<ellipse fill="none" stroke="#000000" cx="187" cy="-377" rx="54.9572" ry="22"></ellipse>
+<text text-anchor="middle" x="187" y="-372.8" font-family="Times,serif" font-size="14.00" fill="#000000">cell.center</text>
+</g>
+<!-- CPM_0_1&#45;&gt;cell_center_0 -->
+<g id="edge1" class="edge">
+<title>CPM_0_1-&gt;cell_center_0</title>
+<path fill="none" stroke="#8f100d" stroke-width="3" d="M121.3635,-449.7709C133.8804,-435.8935 148.7852,-419.3686 161.2257,-405.5758"></path>
+<polygon fill="#8f100d" stroke="#8f100d" stroke-width="3" points="164.1303,-407.5812 168.229,-397.8113 158.9323,-402.8928 164.1303,-407.5812"></polygon>
+</g>
+<!-- cell_type_0 -->
+<g id="node8" class="node">
+<title>cell_type_0</title>
+<ellipse fill="#d3d247" stroke="#000000" cx="308" cy="-377" rx="44.0361" ry="18"></ellipse>
+<ellipse fill="none" stroke="#000000" cx="308" cy="-377" rx="48.0377" ry="22"></ellipse>
+<text text-anchor="middle" x="308" y="-372.8" font-family="Times,serif" font-size="14.00" fill="#000000">cell.type</text>
+</g>
+<!-- CPM_0_1&#45;&gt;cell_type_0 -->
+<g id="edge2" class="edge">
+<title>CPM_0_1-&gt;cell_type_0</title>
+<path fill="none" stroke="#8f100d" stroke-width="3" d="M122.8403,-453.1509C124.5374,-452.0164 126.2624,-450.9557 128,-450 177.9091,-422.5495 199.2311,-437.7576 251,-414 258.784,-410.4278 266.7368,-405.9063 274.1369,-401.2611"></path>
+<polygon fill="#8f100d" stroke="#8f100d" stroke-width="3" points="276.0546,-404.1891 282.5267,-395.8008 272.2362,-398.3222 276.0546,-404.1891"></polygon>
+</g>
+<!-- Gnuplotter_0_10000 -->
+<g id="node2" class="node">
+<title>Gnuplotter_0_10000</title>
+<g id="a_node2">
+<polygon fill="#fffea3" stroke="transparent" points="356,-304 284,-304 284,-254 356,-254 356,-304"></polygon>
+<text text-anchor="start" x="287.507" y="-286.5" font-family="times" font-size="15.00" fill="#000000">Gnuplotter</text>
+<text text-anchor="start" x="301.25" y="-262.5" font-family="times" font-size="15.00" fill="#000000">10000</text>
+<polygon fill="#000000" stroke="#000000" points="284,-279 284,-279 356,-279 356,-279 284,-279"></polygon>
+<polygon fill="none" stroke="#000000" points="284,-254 284,-304 356,-304 356,-254 284,-254"></polygon>
+</g>
+</g>
+<!-- Logger_0_10000 -->
+<g id="node3" class="node">
+<title>Logger_0_10000</title>
+<g id="a_node3">
+<polygon fill="#fffea3" stroke="transparent" points="235,-66 181,-66 181,-16 235,-16 235,-66"></polygon>
+<text text-anchor="start" x="186.8423" y="-48.5" font-family="times" font-size="15.00" fill="#000000">Logger</text>
+<text text-anchor="start" x="189.75" y="-24.5" font-family="times" font-size="15.00" fill="#000000">10000</text>
+<polygon fill="#000000" stroke="#000000" points="183,-41 183,-41 234,-41 234,-41 183,-41"></polygon>
+<polygon fill="none" stroke="#000000" points="182.5,-16 182.5,-66 233.5,-66 233.5,-16 182.5,-16"></polygon>
+</g>
+</g>
+<!-- MKtemp_0 -->
+<g id="node4" class="node">
+<title>MKtemp_0</title>
+<g id="a_node4">
+<ellipse fill="#d3d247" stroke="#000000" cx="123" cy="-120" rx="45.806" ry="18"></ellipse>
+<text text-anchor="middle" x="123" y="-115.8" font-family="Times,serif" font-size="14.00" fill="#000000">MKtemp</text>
+</g>
+</g>
+<!-- MKtemp_0&#45;&gt;Logger_0_10000 -->
+<g id="edge3" class="edge">
+<title>MKtemp_0-&gt;Logger_0_10000</title>
+<path fill="none" stroke="#112c5f" stroke-width="2" d="M141.0263,-103.2461C150.4499,-94.4877 162.3088,-83.466 173.4191,-73.1399"></path>
+<polygon fill="#112c5f" stroke="#112c5f" stroke-width="2" points="176.01,-75.5101 180.9522,-66.1386 171.2445,-70.3827 176.01,-75.5101"></polygon>
+</g>
+<!-- cell_center_x_0 -->
+<g id="node6" class="node">
+<title>cell_center_x_0</title>
+<ellipse fill="#d3d247" stroke="#000000" cx="208" cy="-279" rx="58.4435" ry="18"></ellipse>
+<text text-anchor="middle" x="208" y="-274.8" font-family="Times,serif" font-size="14.00" fill="#000000">cell.center.x</text>
+</g>
+<!-- cell_center_0&#45;&gt;cell_center_x_0 -->
+<g id="edge6" class="edge">
+<title>cell_center_0-&gt;cell_center_x_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M191.7652,-354.7623C195.4924,-337.3686 200.6103,-313.4851 204.097,-297.2141"></path>
+</g>
+<!-- cell_center_y_0 -->
+<g id="node7" class="node">
+<title>cell_center_y_0</title>
+<ellipse fill="#d3d247" stroke="#000000" cx="74" cy="-279" rx="58.4435" ry="18"></ellipse>
+<text text-anchor="middle" x="74" y="-274.8" font-family="Times,serif" font-size="14.00" fill="#000000">cell.center.y</text>
+</g>
+<!-- cell_center_0&#45;&gt;cell_center_y_0 -->
+<g id="edge7" class="edge">
+<title>cell_center_0-&gt;cell_center_y_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M163.8601,-356.9318C143.1978,-339.0123 113.2618,-313.05 93.7154,-296.0983"></path>
+</g>
+<!-- cell_center_x_0&#45;&gt;Logger_0_10000 -->
+<g id="edge11" class="edge">
+<title>cell_center_x_0-&gt;Logger_0_10000</title>
+<path fill="none" stroke="#112c5f" stroke-width="2" d="M208,-260.7197C208,-221.3925 208,-128.1565 208,-76.6784"></path>
+<polygon fill="#112c5f" stroke="#112c5f" stroke-width="2" points="211.5001,-76.3618 208,-66.3618 204.5001,-76.3618 211.5001,-76.3618"></polygon>
+</g>
+<!-- cell_center_y_0&#45;&gt;Logger_0_10000 -->
+<g id="edge12" class="edge">
+<title>cell_center_y_0-&gt;Logger_0_10000</title>
+<path fill="none" stroke="#112c5f" stroke-width="2" d="M89.9039,-261.5954C112.3864,-236.1716 153.4518,-186.5996 178,-138 187.903,-118.3945 195.2731,-94.8938 200.2298,-75.9345"></path>
+<polygon fill="#112c5f" stroke="#112c5f" stroke-width="2" points="203.6331,-76.7522 202.6692,-66.2013 196.8431,-75.0504 203.6331,-76.7522"></polygon>
+</g>
+<!-- cell_type_0&#45;&gt;Gnuplotter_0_10000 -->
+<g id="edge13" class="edge">
+<title>cell_type_0-&gt;Gnuplotter_0_10000</title>
+<path fill="none" stroke="#112c5f" stroke-width="2" d="M310.723,-354.7623C312.1888,-342.7918 314.0309,-327.7475 315.6866,-314.2262"></path>
+<polygon fill="#112c5f" stroke="#112c5f" stroke-width="2" points="319.1656,-314.6106 316.907,-304.2593 312.2175,-313.7598 319.1656,-314.6106"></polygon>
+</g>
+<!-- delta_r_0 -->
+<g id="node9" class="node">
+<title>delta_r_0</title>
+<ellipse fill="#b5b426" stroke="#000000" cx="380" cy="-196" rx="37.713" ry="18"></ellipse>
+<ellipse fill="none" stroke="#000000" cx="380" cy="-196" rx="41.6986" ry="22"></ellipse>
+<text text-anchor="middle" x="380" y="-191.8" font-family="Times,serif" font-size="14.00" fill="#000000">delta_r</text>
+</g>
+<!-- delta_r_x_0 -->
+<g id="node10" class="node">
+<title>delta_r_x_0</title>
+<ellipse fill="#d3d247" stroke="#000000" cx="272" cy="-120" rx="45.1836" ry="18"></ellipse>
+<text text-anchor="middle" x="272" y="-115.8" font-family="Times,serif" font-size="14.00" fill="#000000">delta_r.x</text>
+</g>
+<!-- delta_r_0&#45;&gt;delta_r_x_0 -->
+<g id="edge16" class="edge">
+<title>delta_r_0-&gt;delta_r_x_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M354.9512,-178.373C336.6311,-165.4812 311.9993,-148.1476 294.3449,-135.7242"></path>
+</g>
+<!-- delta_r_y_0 -->
+<g id="node11" class="node">
+<title>delta_r_y_0</title>
+<ellipse fill="#d3d247" stroke="#000000" cx="380" cy="-120" rx="45.1836" ry="18"></ellipse>
+<text text-anchor="middle" x="380" y="-115.8" font-family="Times,serif" font-size="14.00" fill="#000000">delta_r.y</text>
+</g>
+<!-- delta_r_0&#45;&gt;delta_r_y_0 -->
+<g id="edge17" class="edge">
+<title>delta_r_0-&gt;delta_r_y_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M380,-173.6086C380,-162.3995 380,-148.9974 380,-138.3975"></path>
+</g>
+<!-- delta_r_x_0&#45;&gt;Logger_0_10000 -->
+<g id="edge19" class="edge">
+<title>delta_r_x_0-&gt;Logger_0_10000</title>
+<path fill="none" stroke="#112c5f" stroke-width="2" d="M258.113,-102.8582C251.2669,-94.4076 242.7716,-83.9213 234.7325,-73.9979"></path>
+<polygon fill="#112c5f" stroke="#112c5f" stroke-width="2" points="237.4376,-71.7769 228.4232,-66.2099 231.9985,-76.1833 237.4376,-71.7769"></polygon>
+</g>
+<!-- delta_r_y_0&#45;&gt;Logger_0_10000 -->
+<g id="edge20" class="edge">
+<title>delta_r_y_0-&gt;Logger_0_10000</title>
+<path fill="none" stroke="#112c5f" stroke-width="2" d="M350.0399,-106.2393C320.645,-92.7381 275.7791,-72.1311 244.3579,-57.6993"></path>
+<polygon fill="#112c5f" stroke="#112c5f" stroke-width="2" points="245.6183,-54.4267 235.0701,-53.4334 242.6966,-60.7878 245.6183,-54.4267"></polygon>
+</g>
+<!-- MotilityReporter_11480696856280444441 -->
+<g id="node12" class="node">
+<title>MotilityReporter_11480696856280444441</title>
+<g id="a_node12">
+<polygon fill="#fffea3" stroke="transparent" points="572,-414 462,-414 462,-340 572,-340 572,-414"></polygon>
+<text text-anchor="start" x="466.174" y="-396.5" font-family="times" font-size="15.00" fill="#000000">MotilityReporter</text>
+<text text-anchor="start" x="465.8808" y="-373.5" font-family="times" font-style="italic" font-size="15.00" fill="#000000">"worm_motility"</text>
+<text text-anchor="start" x="502" y="-348.5" font-family="times" font-size="15.00" fill="#000000">1000</text>
+<polygon fill="#000000" stroke="#000000" points="462,-365 462,-365 572,-365 572,-365 462,-365"></polygon>
+<polygon fill="none" stroke="#000000" points="462,-340 462,-414 572,-414 572,-340 462,-340"></polygon>
+</g>
+</g>
+<!-- delta_r_1 -->
+<g id="node15" class="node">
+<title>delta_r_1</title>
+<g id="a_node15">
+<ellipse fill="#b5b426" stroke="#000000" cx="427" cy="-279" rx="37.6986" ry="18"></ellipse>
+<text text-anchor="middle" x="427" y="-274.8" font-family="Times,serif" font-size="14.00" fill="#000000">delta_r</text>
+</g>
+</g>
+<!-- MotilityReporter_11480696856280444441&#45;&gt;delta_r_1 -->
+<g id="edge4" class="edge">
+<title>MotilityReporter_11480696856280444441-&gt;delta_r_1</title>
+<path fill="none" stroke="#8f100d" stroke-width="3" d="M482.9749,-339.9504C471.6791,-327.6506 459.4008,-314.2809 449.2297,-303.2057"></path>
+<polygon fill="#8f100d" stroke="#8f100d" stroke-width="3" points="451.5822,-300.5928 442.2402,-295.5949 446.4264,-305.3277 451.5822,-300.5928"></polygon>
+</g>
+<!-- vel_1 -->
+<g id="node16" class="node">
+<title>vel_1</title>
+<g id="a_node16">
+<ellipse fill="#b5b426" stroke="#000000" cx="517" cy="-279" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="517" y="-274.8" font-family="Times,serif" font-size="14.00" fill="#000000">vel</text>
+</g>
+</g>
+<!-- MotilityReporter_11480696856280444441&#45;&gt;vel_1 -->
+<g id="edge5" class="edge">
+<title>MotilityReporter_11480696856280444441-&gt;vel_1</title>
+<path fill="none" stroke="#8f100d" stroke-width="3" d="M517,-339.9504C517,-329.0886 517,-317.3926 517,-307.1791"></path>
+<polygon fill="#8f100d" stroke="#8f100d" stroke-width="3" points="520.5001,-307.1693 517,-297.1694 513.5001,-307.1694 520.5001,-307.1693"></polygon>
+</g>
+<!-- cell_center_1 -->
+<g id="node13" class="node">
+<title>cell_center_1</title>
+<ellipse fill="#b5b426" stroke="#000000" cx="529" cy="-479" rx="50.9572" ry="18"></ellipse>
+<text text-anchor="middle" x="529" y="-474.8" font-family="Times,serif" font-size="14.00" fill="#000000">cell.center</text>
+</g>
+<!-- cell_center_1&#45;&gt;cell_center_0 -->
+<g id="edge9" class="edge">
+<title>cell_center_1-&gt;cell_center_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M501.5995,-463.7123C491.5967,-458.6854 480.0288,-453.4957 469,-450 375.3887,-420.3289 343.4505,-447.1115 251,-414 238.5548,-409.5427 225.7637,-402.6826 214.9198,-396.0747"></path>
+</g>
+<!-- cell_center_1&#45;&gt;MotilityReporter_11480696856280444441 -->
+<g id="edge8" class="edge">
+<title>cell_center_1-&gt;MotilityReporter_11480696856280444441</title>
+<path fill="none" stroke="#112c5f" stroke-width="2" d="M526.8546,-460.7644C525.6524,-450.5458 524.0922,-437.2839 522.5692,-424.3382"></path>
+<polygon fill="#112c5f" stroke="#112c5f" stroke-width="2" points="526.0078,-423.6106 521.3633,-414.0881 519.0558,-424.4285 526.0078,-423.6106"></polygon>
+</g>
+<!-- cell_type_1 -->
+<g id="node14" class="node">
+<title>cell_type_1</title>
+<g id="a_node14">
+<ellipse fill="#d3d247" stroke="#000000" cx="416" cy="-479" rx="44.0377" ry="18"></ellipse>
+<text text-anchor="middle" x="416" y="-474.8" font-family="Times,serif" font-size="14.00" fill="#000000">cell.type</text>
+</g>
+</g>
+<!-- cell_type_1&#45;&gt;cell_type_0 -->
+<g id="edge14" class="edge">
+<title>cell_type_1-&gt;cell_type_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M398.166,-462.1568C379.2338,-444.2763 349.3249,-416.0291 329.2004,-397.0226"></path>
+</g>
+<!-- delta_r_1&#45;&gt;delta_r_0 -->
+<g id="edge18" class="edge">
+<title>delta_r_1-&gt;delta_r_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M417.0325,-261.3978C409.7032,-248.4545 399.7097,-230.8065 391.9513,-217.1054"></path>
+</g>
+<!-- cell_center_2 -->
+<g id="node17" class="node">
+<title>cell_center_2</title>
+<ellipse fill="#b5b426" stroke="#000000" cx="191" cy="-479" rx="50.9572" ry="18"></ellipse>
+<text text-anchor="middle" x="191" y="-474.8" font-family="Times,serif" font-size="14.00" fill="#000000">cell.center</text>
+</g>
+<!-- cell_center_2&#45;&gt;cell_center_0 -->
+<g id="edge10" class="edge">
+<title>cell_center_2-&gt;cell_center_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M190.2849,-460.7644C189.6107,-443.5737 188.5988,-417.7701 187.8764,-399.3489"></path>
+</g>
+<!-- cell_type_2 -->
+<g id="node18" class="node">
+<title>cell_type_2</title>
+<g id="a_node18">
+<ellipse fill="#d3d247" stroke="#000000" cx="304" cy="-479" rx="44.0377" ry="18"></ellipse>
+<text text-anchor="middle" x="304" y="-474.8" font-family="Times,serif" font-size="14.00" fill="#000000">cell.type</text>
+</g>
+</g>
+<!-- cell_type_2&#45;&gt;cell_type_0 -->
+<g id="edge15" class="edge">
+<title>cell_type_2-&gt;cell_type_0</title>
+<path fill="none" stroke="#38568c" stroke-dasharray="5,2" d="M304.7151,-460.7644C305.3893,-443.5737 306.4012,-417.7701 307.1236,-399.3489"></path>
+</g>
+</g>
+</svg>

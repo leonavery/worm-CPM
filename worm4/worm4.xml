@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MorpheusModel version="4">
+    <Description>
+        <Details>This model is used to calibrate the Metroplis Kinetcis temperature and chemataxis strength to fidn what diffusion rates and drift velocity they produce.
+</Details>
+        <Title>worm4</Title>
+    </Description>
+    <Space>
+        <Lattice class="square">
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+            <Size value="5000, 5000, 0" symbol="size"/>
+            <BoundaryConditions>
+                <Condition boundary="x" type="periodic"/>
+                <Condition boundary="y" type="periodic"/>
+            </BoundaryConditions>
+            <NodeLength value="0.002" symbol="dx"/>
+        </Lattice>
+        <SpaceSymbol symbol="space"/>
+    </Space>
+    <Time>
+        <StartTime value="0"/>
+        <StopTime value="10000" symbol="tmax"/>
+        <TimeSymbol symbol="time"/>
+        <RandomSeed value="123456"/>
+        <!--    <Disabled>
+        <RandomSeed value="0"/>
+    </Disabled>
+-->
+    </Time>
+    <Analysis>
+        <ModelGraph format="svg" include-tags="#untagged" reduced="false"/>
+        <Gnuplotter time-step="10000" decorate="true" file-numbering="time">
+            <Plot>
+                <Cells/>
+                <Field symbol-ref="Ua"/>
+            </Plot>
+            <Terminal name="png" size="2000,2000,0"/>
+        </Gnuplotter>
+        <Logger time-step="10000">
+            <Input>
+                <Symbol symbol-ref="cell.center.x"/>
+                <Symbol symbol-ref="cell.center.y"/>
+                <Symbol symbol-ref="delta_r.x"/>
+                <Symbol symbol-ref="delta_r.y"/>
+                <Symbol symbol-ref="MKtemp"/>
+                <Symbol symbol-ref="cmstrength"/>
+            </Input>
+            <Output>
+                <TextOutput header="true" separator="comma" file-format="csv" file-numbering="time"/>
+            </Output>
+        </Logger>
+    </Analysis>
+    <CPM>
+        <Interaction>
+            <Contact type2="worm" value="wormtoworm" type1="worm"/>
+            <Contact type2="medium" value="wormtomedium" type1="worm"/>
+        </Interaction>
+        <ShapeSurface scaling="norm">
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+        </ShapeSurface>
+        <MonteCarloSampler stepper="edgelist">
+            <MCSDuration value="1"/>
+            <MetropolisKinetics temperature="MKtemp"/>
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+        </MonteCarloSampler>
+    </CPM>
+    <CellTypes>
+        <CellType class="biological" name="worm">
+            <ConnectivityConstraint/>
+            <VolumeConstraint strength="1" target="20"/>
+            <MotilityReporter time-step="1000" name="worm_motility">
+                <Displacement symbol-ref="delta_r"/>
+                <Velocity symbol-ref="vel"/>
+            </MotilityReporter>
+            <PropertyVector value="0.0, 0.0, 0.0" symbol="vel"/>
+            <PropertyVector value="0.0, 0.0, 0.0" symbol="delta_r"/>
+            <Chemotaxis strength="cmstrength" field="Ua"/>
+        </CellType>
+        <CellType class="biological" name="medium"/>
+    </CellTypes>
+    <CellPopulations>
+        <Population type="worm" size="1">
+            <InitRectangle mode="regular" number-of-cells="100">
+                <Dimensions origin="200,2500,0" size="10,10,1"/>
+            </InitRectangle>
+        </Population>
+    </CellPopulations>
+    <Global>
+        <Constant value="0.2" symbol="width" name="width"/>
+        <Constant value="size.x" symbol="nelements" name="nelements"/>
+        <Constant value="1" symbol="sweep" name="sweep"/>
+        <Constant value="1.0" symbol="MKtemp"/>
+        <Constant value="15.0" symbol="MKtime"/>
+        <Field value="space.x" symbol="Ua" name="attractant"/>
+        <Constant value="1.0" symbol="cmstrength"/>
+        <Constant value="0.0" symbol="wormtoworm"/>
+        <Constant value="0.0" symbol="wormtomedium"/>
+    </Global>
+</MorpheusModel>
