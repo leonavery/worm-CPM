@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MorpheusModel version="4">
+    <Description>
+        <Details>This is a trival model containing a single CMP worm to find out how much it diffuses.
+</Details>
+        <Title>worm2</Title>
+    </Description>
+    <Space>
+        <Lattice class="square">
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+            <Size symbol="size" value="1000, 1000, 0"/>
+            <BoundaryConditions>
+                <Condition type="periodic" boundary="x"/>
+                <Condition type="periodic" boundary="y"/>
+            </BoundaryConditions>
+            <NodeLength symbol="dx" value="0.002"/>
+        </Lattice>
+        <SpaceSymbol symbol="space"/>
+    </Space>
+    <Time>
+        <StartTime value="0"/>
+        <StopTime symbol="tmax" value="10000"/>
+        <TimeSymbol symbol="time"/>
+        <!--    <Disabled>
+        <RandomSeed value="123456"/>
+    </Disabled>
+-->
+        <RandomSeed value="0"/>
+    </Time>
+    <Analysis>
+        <ModelGraph include-tags="#untagged" reduced="false" format="svg"/>
+        <Gnuplotter time-step="10000" file-numbering="time" decorate="true">
+            <Plot>
+                <Cells/>
+            </Plot>
+            <Terminal name="png"/>
+        </Gnuplotter>
+        <Logger time-step="10000">
+            <Input>
+                <Symbol symbol-ref="cell.center.x"/>
+                <Symbol symbol-ref="cell.center.y"/>
+                <Symbol symbol-ref="delta_r.x"/>
+                <Symbol symbol-ref="delta_r.y"/>
+                <Symbol symbol-ref="vel.x"/>
+                <Symbol symbol-ref="vel.y"/>
+                <Symbol symbol-ref="sweep"/>
+            </Input>
+            <Output>
+                <TextOutput header="true" file-format="csv" separator="comma" file-numbering="time"/>
+            </Output>
+        </Logger>
+    </Analysis>
+    <CPM>
+        <Interaction>
+            <Contact type1="worm" value="2" type2="worm"/>
+            <Contact type1="worm" value="4" type2="medium"/>
+        </Interaction>
+        <ShapeSurface scaling="norm">
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+        </ShapeSurface>
+        <MonteCarloSampler stepper="edgelist">
+            <MCSDuration value="1"/>
+            <MetropolisKinetics temperature="1.6"/>
+            <Neighborhood>
+                <Order>1</Order>
+            </Neighborhood>
+        </MonteCarloSampler>
+    </CPM>
+    <CellTypes>
+        <CellType name="worm" class="biological">
+            <ConnectivityConstraint/>
+            <VolumeConstraint strength="1" target="20"/>
+            <MotilityReporter name="worm_motility" time-step="1000">
+                <Displacement symbol-ref="delta_r"/>
+                <Velocity symbol-ref="vel"/>
+            </MotilityReporter>
+            <PropertyVector symbol="vel" value="0.0, 0.0, 0.0"/>
+            <PropertyVector symbol="delta_r" value="0.0, 0.0, 0.0"/>
+        </CellType>
+        <CellType name="medium" class="biological"/>
+    </CellTypes>
+    <CellPopulations>
+        <Population size="1" type="worm">
+            <Cell name="the worm" id="1">
+                <Nodes>500, 500, 0</Nodes>
+                <Center>0.1, 0.1, 0.0</Center>
+            </Cell>
+            <InitRectangle mode="regular" number-of-cells="100">
+                <Dimensions size="10,10,1" origin="500,500,0"/>
+            </InitRectangle>
+        </Population>
+    </CellPopulations>
+    <Global>
+        <Constant name="width" symbol="width" value="0.2"/>
+        <Constant name="nelements" symbol="nelements" value="1000"/>
+        <!--    <Disabled>
+        <VectorMapper name="mu_v" time-step="1000">
+            <Input value="cell.center.x, cell.center.y, cell.center.z"/>
+            <Output/>
+            <Output/>
+        </VectorMapper>
+    </Disabled>
+-->
+        <Constant name="sweep" symbol="sweep" value="1"/>
+    </Global>
+</MorpheusModel>

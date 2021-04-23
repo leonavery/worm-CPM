@@ -1,0 +1,425 @@
+Initializing from file model.xml
+Registering Symbol tmax of linktype PrimitiveConstant in Scope root
+Registering Symbol time of linktype TimeLink in Scope root
+Random seed of master thread = 123456
+Registering Symbol space of linktype LocationLink in Scope root
+Registering Symbol space.x of linktype VectorComponentLink in Scope root
+Registering Symbol space.y of linktype VectorComponentLink in Scope root
+Registering Symbol space.z of linktype VectorComponentLink in Scope root
+Registering Symbol space.phi of linktype VectorComponentLink in Scope root
+Registering Symbol space.theta of linktype VectorComponentLink in Scope root
+Registering Symbol space.abs of linktype VectorComponentLink in Scope root
+Creating lattice
+getXMLAttribute: seeking for Lattice->class: square
+getXMLAttribute: seeking for Size->value: 1000, 1000, 0
+getXMLAttribute: seeking for Size->symbol: size
+Registering Symbol size of linktype PrimitiveVariable in Scope root
+Registering Symbol size.x of linktype VectorComponentLink in Scope root
+Registering Symbol size.y of linktype VectorComponentLink in Scope root
+Registering Symbol size.z of linktype VectorComponentLink in Scope root
+Registering Symbol size.phi of linktype VectorComponentLink in Scope root
+Registering Symbol size.theta of linktype VectorComponentLink in Scope root
+Registering Symbol size.abs of linktype VectorComponentLink in Scope root
+Registering Symbol dx of linktype PrimitiveConstant in Scope root
+Loading [4] Global Plugins
+getXMLAttribute: seeking for Constant->name: width
+getXMLAttribute: seeking for Constant->symbol: width
+getXMLAttribute: seeking for Constant->value: 0.2
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol width of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name: nelements
+getXMLAttribute: seeking for Constant->symbol: nelements
+getXMLAttribute: seeking for Constant->value: 1000
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol nelements of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name: sweep
+getXMLAttribute: seeking for Constant->symbol: sweep
+getXMLAttribute: seeking for Constant->value: 1
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol sweep of linktype ConstantLink in Scope root
+getXMLAttribute: seeking for Constant->name .. not found
+getXMLAttribute: seeking for Constant->symbol: MKtemp
+getXMLAttribute: seeking for Constant->value: 1.4
+getXMLAttribute: seeking for Constant->notation .. not found
+Registering Symbol MKtemp of linktype ConstantLink in Scope root
+Creating subscope CellType[worm] in scope root
+Registering Symbol cell.type of linktype PrimitiveConstant in Scope CellType[worm]
+Registering Symbol cell.type of linktype CompositeLink in Scope root
+Registering Symbol cell.id of linktype CellIDLink in Scope CellType[worm]
+Registering Symbol cell.id of linktype CompositeLink in Scope root
+Registering Symbol cell.center of linktype CellCenterLink in Scope CellType[worm]
+Registering Symbol cell.center of linktype CompositeLink in Scope root
+Registering Symbol cell.center.x of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.y of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.z of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.phi of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.theta of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.abs of linktype VectorComponentLink in Scope root
+Registering Symbol cell.center.x of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.center.y of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.center.z of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.center.phi of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.center.theta of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.center.abs of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.volume of linktype CellVolumeLink in Scope CellType[worm]
+Registering Symbol cell.volume of linktype CompositeLink in Scope root
+Registering Symbol cell.length of linktype CellLengthLink in Scope CellType[worm]
+Registering Symbol cell.length of linktype CompositeLink in Scope root
+Registering Symbol cell.surface of linktype CellInterfaceLengthLink in Scope CellType[worm]
+Registering Symbol cell.surface of linktype CompositeLink in Scope root
+Registering Symbol cell.orientation of linktype CellOrientationLink in Scope CellType[worm]
+Registering Symbol cell.orientation of linktype CompositeLink in Scope root
+Registering Symbol cell.orientation.x of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.y of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.z of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.phi of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.theta of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.abs of linktype VectorComponentLink in Scope root
+Registering Symbol cell.orientation.x of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.orientation.y of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.orientation.z of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.orientation.phi of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.orientation.theta of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol cell.orientation.abs of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol celltype.worm.id of linktype PrimitiveConstant in Scope root
+Registering Symbol celltype.worm.size of linktype CellPopulationSizeLink in Scope root
+Creating subscope CellType[medium] in scope root
+Registering Symbol cell.type of linktype PrimitiveConstant in Scope CellType[medium]
+Registering Symbol cell.id of linktype CellIDLink in Scope CellType[medium]
+Registering Symbol cell.center of linktype CellCenterLink in Scope CellType[medium]
+Registering Symbol cell.center.x of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.center.y of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.center.z of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.center.phi of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.center.theta of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.center.abs of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.volume of linktype CellVolumeLink in Scope CellType[medium]
+Registering Symbol cell.length of linktype CellLengthLink in Scope CellType[medium]
+Registering Symbol cell.surface of linktype CellInterfaceLengthLink in Scope CellType[medium]
+Registering Symbol cell.orientation of linktype CellOrientationLink in Scope CellType[medium]
+Registering Symbol cell.orientation.x of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.orientation.y of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.orientation.z of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.orientation.phi of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.orientation.theta of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol cell.orientation.abs of linktype VectorComponentLink in Scope CellType[medium]
+Registering Symbol celltype.medium.id of linktype PrimitiveConstant in Scope root
+Registering Symbol celltype.medium.size of linktype CellPopulationSizeLink in Scope root
+getXMLAttribute: seeking for VolumeConstraint->target: 20
+getXMLAttribute: seeking for VolumeConstraint->strength: 1
+getXMLAttribute: seeking for Velocity->symbol-ref: vel
+getXMLAttribute: seeking for Displacement->symbol-ref: delta_r
+getXMLAttribute: seeking for MotilityReporter->time-step: 1000
+getXMLAttribute: seeking for PropertyVector->name .. not found
+getXMLAttribute: seeking for PropertyVector->symbol: vel
+getXMLAttribute: seeking for PropertyVector->value: 0.0, 0.0, 0.0
+getXMLAttribute: seeking for PropertyVector->notation .. not found
+Registering Symbol vel of linktype CellPropertyLink in Scope CellType[worm]
+Registering Symbol vel of linktype CompositeLink in Scope root
+Registering Symbol vel.x of linktype VectorComponentLink in Scope root
+Registering Symbol vel.y of linktype VectorComponentLink in Scope root
+Registering Symbol vel.z of linktype VectorComponentLink in Scope root
+Registering Symbol vel.phi of linktype VectorComponentLink in Scope root
+Registering Symbol vel.theta of linktype VectorComponentLink in Scope root
+Registering Symbol vel.abs of linktype VectorComponentLink in Scope root
+Registering Symbol vel.x of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol vel.y of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol vel.z of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol vel.phi of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol vel.theta of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol vel.abs of linktype VectorComponentLink in Scope CellType[worm]
+getXMLAttribute: seeking for PropertyVector->name .. not found
+getXMLAttribute: seeking for PropertyVector->symbol: delta_r
+getXMLAttribute: seeking for PropertyVector->value: 0.0, 0.0, 0.0
+getXMLAttribute: seeking for PropertyVector->notation .. not found
+Registering Symbol delta_r of linktype CellPropertyLink in Scope CellType[worm]
+Registering Symbol delta_r of linktype CompositeLink in Scope root
+Registering Symbol delta_r.x of linktype VectorComponentLink in Scope root
+Registering Symbol delta_r.y of linktype VectorComponentLink in Scope root
+Registering Symbol delta_r.z of linktype VectorComponentLink in Scope root
+Registering Symbol delta_r.phi of linktype VectorComponentLink in Scope root
+Registering Symbol delta_r.theta of linktype VectorComponentLink in Scope root
+Registering Symbol delta_r.abs of linktype VectorComponentLink in Scope root
+Registering Symbol delta_r.x of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol delta_r.y of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol delta_r.z of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol delta_r.phi of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol delta_r.theta of linktype VectorComponentLink in Scope CellType[worm]
+Registering Symbol delta_r.abs of linktype VectorComponentLink in Scope CellType[worm]
+CellTypes defined: 'medium' 'worm' 
+Creating subscope CellType[Medium] in scope root
+Registering Symbol cell.type of linktype PrimitiveConstant in Scope CellType[Medium]
+Registering Symbol cell.id of linktype CellIDLink in Scope CellType[Medium]
+Registering Symbol cell.center of linktype CellCenterLink in Scope CellType[Medium]
+Registering Symbol cell.center.x of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.y of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.z of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.phi of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.theta of linktype VectorComponentLink in Scope CellType[Medium]
+Registering Symbol cell.center.abs of linktype VectorComponentLink in Scope CellType[Medium]
+getXMLAttribute: seeking for MonteCarloSampler/MCSDuration->value: 1
+getXMLAttribute: seeking for MonteCarloSampler/MCSDuration->symbol .. not found
+getXMLAttribute: seeking for MonteCarloSampler->stepper: edgelist
+getXMLAttribute: seeking for MonteCarloSampler/MetropolisKinetics->temperature: MKtemp
+getXMLAttribute: seeking for MonteCarloSampler/MetropolisKinetics->yield .. not found
+Symbol 'cell.length' is only partially defined 
+Symbol 'cell.orientation' is only partially defined 
+Symbol 'cell.surface' is only partially defined 
+Symbol 'cell.volume' is only partially defined 
+Symbol 'delta_r' is only partially defined 
+Symbol 'vel' is only partially defined 
+Creating cell layer with initial state set to CellType 'Medium'
+LDL getLattice
+getXMLAttribute: seeking for InitRectangle->number-of-cells: 100
+getXMLAttribute: seeking for InitRectangle->mode: regular
+getXMLAttribute: seeking for InitRectangle->random-offset .. not found
+getXMLAttribute: seeking for Dimensions->origin: 500,500,0
+getXMLAttribute: seeking for Dimensions->size: 10,10,1
+Initializing celltype 'worm'
+ConnectivityConstraint: 1, 0, 0 a 0 d1
+ConnectivityConstraint: 0, 1, 0 a 1.5708 d1
+ConnectivityConstraint: -1, 0, 0 a 3.14159 d1
+ConnectivityConstraint: 0, -1, 0 a 4.71239 d1
+ConnectivityConstraint: Found 4 first order neighbors
+Scope: Creating Accessor for symbol 'vel' from Scope CellType[worm]
+Scope: Creating Accessor for symbol 'delta_r' from Scope CellType[worm]
+PluginMotilityReporter: Registered output symbol dependencies vel [CellType[worm]] ,delta_r [CellType[worm]] ,
+Scope: Creating Accessor for symbol 'cell.center' from Scope CellType[worm]
+CellType 'worm': loading 1 cells from XML
+InitRectangle: number of cells = 100, origin = 500, 500, 0, size = 10, 10, 1
+successfully created 99 cells.
+failed to create 1 cells.
+Cells 100 requested 1
+Initializing celltype 'medium'
+Initializing celltype 'Medium'
+Scope: Creating Accessor for symbol 'MKtemp' from Scope root
+Expression MKtemp is const (MKtemp, )
+Expression MKtemp is a symbol
+Plugin CPM: Registered input symbol dependencies MKtemp [root] ,
+Scope: Creating Accessor for symbol 'cell.center' from Scope root
+Scope: Creating Accessor for symbol 'cell.volume' from Scope root
+Scope: Creating Accessor for symbol 'cell.surface' from Scope root
+Scope: Creating Accessor for symbol 'cell.length' from Scope root
+Scope: Creating Accessor for symbol 'cell.type' from Scope root
+LDL getLattice
+EdgeListTracker::init() : Created Tracker with Neighborhood size 4
+EdgeListTracker::init() : Found 220 initial edges, wherof 220 can be modified.
+CPM: InteractionEnergy has 4 neighbors
+CPM: InteractionEnergy was initialized with  IA_COLLAPSE 
+Loading Analysis tools [3]
+getXMLAttribute: seeking for ModelGraph->format: svg
+getXMLAttribute: seeking for ModelGraph->reduced: false
+getXMLAttribute: seeking for ModelGraph->exclude-symbols .. not found
+getXMLAttribute: seeking for ModelGraph->include-tags: #untagged
+getXMLAttribute: seeking for Gnuplotter->file-numbering: time
+getXMLAttribute: seeking for Terminal->name: png
+getXMLAttribute: seeking for Terminal->size .. not found
+getXMLAttribute: seeking for Gnuplotter->time-step: 10000
+getXMLAttribute: seeking for Cells->value .. not found
+getXMLAttribute: seeking for Input/Symbol[0]->symbol-ref: cell.center.x
+getXMLAttribute: seeking for Input/Symbol[1]->symbol-ref: cell.center.y
+getXMLAttribute: seeking for Input/Symbol[2]->symbol-ref: delta_r.x
+getXMLAttribute: seeking for Input/Symbol[3]->symbol-ref: delta_r.y
+getXMLAttribute: seeking for Input/Symbol[4]->symbol-ref: MKtemp
+getXMLAttribute: seeking for Restriction/Slice->value .. not found
+getXMLAttribute: seeking for Restriction/Slice->axis .. not found
+getXMLAttribute: seeking for Restriction/Celltype->celltype .. not found
+getXMLAttribute: seeking for Restriction/Cells->cell-ids .. not found
+getXMLAttribute: seeking for Restriction->domain-only .. not found
+getXMLAttribute: seeking for Restriction->condition .. not found
+getXMLAttribute: seeking for Input->force-node-granularity .. not found
+getXMLAttribute: seeking for Restriction->exclude-medium .. not found
+getXMLAttribute: seeking for Output/TextOutput->header: true
+getXMLAttribute: seeking for Output/TextOutput->header-guarding .. not found
+getXMLAttribute: seeking for Output/TextOutput->separator: comma
+getXMLAttribute: seeking for Output/TextOutput->file-name .. not found
+getXMLAttribute: seeking for Output/TextOutput->file-numbering: time
+getXMLAttribute: seeking for Output/TextOutput->file-separation .. not found
+getXMLAttribute: seeking for Output/TextOutput->file-format: csv
+getXMLAttribute: seeking for Logger->time-step: 10000
+Scope: Creating Accessor for symbol 'cell.type' from Scope root
+Scope: Creating Accessor for symbol 'cell.center.x' from Scope root
+Scope: Creating Accessor for symbol 'cell.center.y' from Scope root
+Scope: Creating Accessor for symbol 'delta_r.x' from Scope root
+Scope: Creating Accessor for symbol 'delta_r.y' from Scope root
+Scope: Creating Accessor for symbol 'MKtemp' from Scope root
+Plugin Logger: Registered input symbol dependencies MKtemp [root] ,cell.center.x [root] ,cell.center.y [root] ,delta_r.y [root] ,delta_r.x [root] ,
+Logger range:
+-> size 100
+-> dataAxes 1
+-> data.sizes: 100, 
+Scope: Creating Accessor for symbol 'time' from Scope root
+Scope: Creating Accessor for symbol 'cell.id' from Scope root
+MotilityReporter
+registering reader MotilityReporter on symbol cell.center in Scope CellType[worm]
+registering writer MotilityReporter on symbol vel in Scope CellType[worm]
+registering writer MotilityReporter on symbol delta_r in Scope CellType[worm]
+CPM
+registering reader CPM on symbol MKtemp in Scope root
+registering writer CPM on symbol cell.type in Scope CellType[worm]
+registering writer CPM on symbol cell.volume in Scope CellType[worm]
+registering writer CPM on symbol cell.length in Scope CellType[worm]
+registering writer CPM on symbol cell.surface in Scope CellType[worm]
+registering writer CPM on symbol cell.type in Scope CellType[medium]
+registering writer CPM on symbol cell.center in Scope CellType[medium]
+registering writer CPM on symbol cell.volume in Scope CellType[medium]
+registering writer CPM on symbol cell.length in Scope CellType[medium]
+registering writer CPM on symbol cell.surface in Scope CellType[medium]
+registering writer CPM on symbol cell.center in Scope CellType[worm]
+registering writer CPM on symbol cell.type in Scope CellType[Medium]
+registering writer CPM on symbol cell.center in Scope CellType[Medium]
+ModelGraph
+Gnuplotter
+registering reader Gnuplotter on symbol cell.type in Scope CellType[worm]
+registering reader Gnuplotter on symbol cell.type in Scope CellType[medium]
+registering reader Gnuplotter on symbol cell.type in Scope CellType[Medium]
+Logger
+registering reader Logger on symbol MKtemp in Scope root
+registering reader Logger on symbol delta_r in Scope CellType[worm]
+registering reader Logger on symbol cell.center in Scope CellType[medium]
+registering reader Logger on symbol cell.center in Scope CellType[worm]
+registering reader Logger on symbol cell.center in Scope CellType[Medium]
+
+ TimeStepListener "MotilityReporter" propagates its time step 1000
+
+ TimeStepListener "CPM" propagates its time step 1
+
+ TimeStepListener "ModelGraph" propagates its time step 10000
+
+ TimeStepListener "Gnuplotter" propagates its time step 10000
+
+ TimeStepListener "Logger" propagates its time step 10000
+TimeScheduler::init: Ordering instantaneous processes for sequential update ...
+ 
+======================================================
+ Time Schedule
+======================================================
+ Time precision patch is 0.001
+
+=====|    Phase I     |===============================
+-----. CPM .------------------------------------
+  + 1 => CPM [MKtemp] -> [cell.center,cell.length,cell.surface,cell.type,cell.volume]
+
+=====|    Phase II    |===============================
+-----. Reporters and Instantaneous Processes.---------
+  + 1000 => MotilityReporter [worm_motility] [cell.center] -> [delta_r,vel]
+
+=====|    Phase III   |===============================
+-----. Analysis .-------------------------------------
+  + 10000 => ModelGraph [] 
+  + 10000 => Gnuplotter [cell.type] 
+  + 10000 => Logger [MKtemp,cell.center.x,cell.center.y,delta_r.x,delta_r.y] 
+------------------------------------------------------
+======================================================
+
+model is up
+No support for graph rendering. Falling back to dot output.
+GnuPlotter: Saving plot_00000.png
+Time: 0.00 atu
+Time: 100 
+Time: 200 
+Time: 300 
+Time: 400 
+Time: 500 
+Time: 600 
+Time: 700 
+Time: 800 
+Time: 900 
+Time: 1000 
+Time: 1100 
+Time: 1200 
+Time: 1300 
+Time: 1400 
+Time: 1500 
+Time: 1600 
+Time: 1700 
+Time: 1800 
+Time: 1900 
+Time: 2000 
+Time: 2100 
+Time: 2200 
+Time: 2300 
+Time: 2400 
+Time: 2500 
+Time: 2600 
+Time: 2700 
+Time: 2800 
+Time: 2900 
+Time: 3000 
+Time: 3100 
+Time: 3200 
+Time: 3300 
+Time: 3400 
+Time: 3500 
+Time: 3600 
+Time: 3700 
+Time: 3800 
+Time: 3900 
+Time: 4000 
+Time: 4100 
+Time: 4200 
+Time: 4300 
+Time: 4400 
+Time: 4500 
+Time: 4600 
+Time: 4700 
+Time: 4800 
+Time: 4900 
+Time: 5000 
+Time: 5100 
+Time: 5200 
+Time: 5300 
+Time: 5400 
+Time: 5500 
+Time: 5600 
+Time: 5700 
+Time: 5800 
+Time: 5900 
+Time: 6000 
+Time: 6100 
+Time: 6200 
+Time: 6300 
+Time: 6400 
+Time: 6500 
+Time: 6600 
+Time: 6700 
+Time: 6800 
+Time: 6900 
+Time: 7000 
+Time: 7100 
+Time: 7200 
+Time: 7300 
+Time: 7400 
+Time: 7500 
+Time: 7600 
+Time: 7700 
+Time: 7800 
+Time: 7900 
+Time: 8000 
+Time: 8100 
+Time: 8200 
+Time: 8300 
+Time: 8400 
+Time: 8500 
+Time: 8600 
+Time: 8700 
+Time: 8800 
+Time: 8900 
+Time: 9000 
+Time: 9100 
+Time: 9200 
+Time: 9300 
+Time: 9400 
+Time: 9500 
+Time: 9600 
+Time: 9700 
+Time: 9800 
+Time: 9900 
+GnuPlotter: Saving plot_10000.png
+Time: 10000 
+
+=== Simulation finished ===
+Init Time   = 0s 065ms
+Wall Time   = 18s 497ms
+CPU Time    = 17s 875ms (1 threads)
+
