@@ -1,10 +1,112 @@
 worm-CPM
 
+This repository contains a small collection of models of C elegans L1
+aggregation [1]. These models are implemented in the morpheus
+(https://morpheus.gitlab.io/) modeling environment and use a cellular Potts
+model [2] to model worm movement.
 
+The origin of these models is as follows. We developed partial differential
+e2quation (PDE) models of C elegans L1 aggregation in the continuum
+approximation and wrote a paper [3] based on this PDE model, which we submitted
+to PLOS Computational Biology. Both reviewers suggested that we validate the
+continuum models with individual-based models. One reviewer, Leah
+Edelstein-Keshet (who signed her review) went further and sent us a simple
+morpheus model of L1 aggregation she had developed. This was the inspiration for
+the models in this repository. The repository doesn't incldue Edelstein-Keshet's
+original model, sicne we don't have permission to publish it. However, the
+models here owe little to that original model, besides inspiration, for which we
+are grateful!
+
+DEFECTS OF THE CELLULAR POTTS MODEL
+
+The cellular Potts model [2] was developed to model the movement of cells due to
+differential adhesion, chemotaxis, and other behavioral forces. One, two, or
+three-diemsnional spece is divided into a Cartesian grid. A cell is a connected
+collection of voxels. It is not strictly necessary that the voxels be connected,
+but that will always be the case in the models I consider here. Furthermore,I
+consider only models in which cells are space-filling, meaning that any given
+voxel is occupied by at most one cell. The cell moves by adding adjacent
+unoccupied voxels and leaving border vxoesl.
+
+Movement is controlled by the Metropolis algorithm. Some internal process
+generates possible random steps. (How possible steps are produced is a key
+consdieration in any Metropolis computation. morpheus's random step controller
+is completely undocumented, as far as I was able to determine.) There is a
+Hamiltonian function associated with the cell's configuration, whic hassigns an
+energy to every possible configuration. Chemotaxis, for instance, is modeled by
+a Hamiltonian that assigns lower energy to any configuration in which the
+chemoattractant is at high concentration in the voxels occupied by the cell. To
+decide whether to take a step, the Hamiltonian is evaluated in the before and
+after conifugurations (i.e., in the configuration before the step is taken and
+the configuration that will obtain after the step is taken if it is accepted.)
+If the change in energy is ngetaive, the step is accepted. If the change in
+energy is positive, it is accepted with Boltzmann probability exp(-deltaE/T),
+where the temperature T is a parameter of the simulation. The result is that the
+cell tends to move towards low-energy configurations, but at higher temperatures
+will also sometimes move towards high energy. 
+
+As a model of C elegans movement the CPM has three main defects. The first and
+obviously most serious is that it bears no resemblance to the biology of worm
+chemotaxis. A worm doesn't sense chemoattractants and repellents thorughout it's
+entire volume. In fact, they are sensed by two tiny chemosensory organs, the
+amphids, at the anterior end. Also, the worm doesn't move by oozing random parts
+of its body into adjacent regions of space. It moves the amphids by bending the
+head to move the nose back and forth, and by propagating waves along the length
+of the body to move the nose forward or backward. The simplest way to think of
+this is that the worm can move the amphids in any way that it wants, with little
+physical constraint. The main physical constraints are that the velocity of
+movement is limited, and that the worms take up space, so that there is a limti
+to how many anphids can be crowded into a small space. (The CPM actually deals
+quite well with the space-filling constraint.)
+
+The second defect of the CPM for our purposes is that the meaning of the
+parameters is unclear. For instance, there is no simple relationship betwee the
+parameters of the CPM and any physically measureable quantity, such as the
+velocity with which a chemotaxign worm moves on a chemical gradient, or the rate
+of diffusional spread of a population of worms. This problem means that it is
+difficult to imposible to parametrize the CPM so that its results can be
+expected to correspond quantitatively to the PDE model. We did our best to solve
+this problem by calibration, but since the relationship of velocity to chemical
+gradient is nonlinear (it is approximate dby a hyberbolic tangent), this is not
+entirely possible. We eventually deicded to parametrix the model in such as way
+as to preserve equilibria to the extent possible, but not kinetics. (In
+principle this problem can be solved by taking very short time steps, but that
+exacerbates the third problem.)
+
+The third defect of the CPM is that it is computationally expensive. It works
+very hard to accurately model the complex movements of an amoeboid cell, which
+of course a worm is not. Finally, this line from the morpheus documentation was
+the kiss of death:
+
+    Morpheus employs OpenMP as the workload-sharing construct. CPM computation,
+    however, does not yet make use of OpenMP.
+
+There is no parallelization of CPM computations. This means there is no benefit
+from running a big problem at a high-performing-computing facility. The model
+runs no faster when multiple processors are avialable than on a single
+processor. (In fact, it runs slightly more slowly in a multiprocessing
+configuration.) Our most important model, worm6c.xml, which models 9000 worms on
+a 1 cm square, requires a week and a half to run to completion. Other
+simulations, such as one modeling 72000 worms on a 6 cm square, are totally
+infeasible.
+
+The morpheus implementation of the CPM provided two benefits. First adn most
+importnat, it made it practical to develop an individual-based model without
+software development. Second, it handles the volume-filling constraint
+naturally -- this is delat with in an ad hoc way in the PDE model. 
+
+CONTENTS OF THE REPO
+
+EXPLANATIONS OF SOME ODD POINTS OF MODEL CONSTRUCTION
+
+REFERENCES
 
 1. Artyukhin, A. B., Yim, J. J., Cheong Cheong, M., & Avery,
    L. (2015). Starvation-induced collective behavior in C. elegans. Scientific
    Reports, 5. https://doi.org/10.1038/srep10647.
-2. Avery, L., Ingalls, B., Dumur, C., & Artyukhin, A. (2020). A Keller-Segel
+2. Graner, F., & Glazier, J. A. (1992). Simulation of biological cell sorting
+   using a two-dimensional extended Potts model. Physical Review Letters,
+   69(13), 20132016. https://doi.org/10.1103/PhysRevLett.69.2013
+3. Avery, L., Ingalls, B., Dumur, C., & Artyukhin, A. (2020). A Keller-Segel
    model for C elegans L1 aggregation. Retrieved from
    http://arxiv.org/abs/2012.03720.

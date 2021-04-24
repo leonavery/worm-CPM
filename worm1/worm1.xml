@@ -90,14 +90,6 @@
     <Global>
         <Constant name="width" symbol="width" value="0.2"/>
         <Constant name="nelements" symbol="nelements" value="1000"/>
-        <!--    <Disabled>
-        <VectorMapper name="mu_v" time-step="1000">
-            <Input value="cell.center.x, cell.center.y, cell.center.z"/>
-            <Output/>
-            <Output/>
-        </VectorMapper>
-    </Disabled>
--->
         <Constant name="sweep" symbol="sweep" value="1:10"/>
     </Global>
 </MorpheusModel>
