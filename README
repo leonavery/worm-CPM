@@ -6,7 +6,7 @@ aggregation [1]. These models are implemented in the morpheus
 model [2] to model worm movement.
 
 The origin of these models is as follows. We developed partial differential
-e2quation (PDE) models of C elegans L1 aggregation in the continuum
+equation (PDE) models of C elegans L1 aggregation in the continuum
 approximation and wrote a paper [3] based on this PDE model, which we submitted
 to PLOS Computational Biology. Both reviewers suggested that we validate the
 continuum models with individual-based models. One reviewer, Leah
@@ -22,32 +22,33 @@ DEFECTS OF THE CELLULAR POTTS MODEL
 The cellular Potts model [2] was developed to model the movement of cells due to
 differential adhesion, chemotaxis, and other behavioral forces. One, two, or
 three-diemsnional spece is divided into a Cartesian grid. A cell is a connected
-collection of voxels. It is not strictly necessary that the voxels be connected,
-but that will always be the case in the models I consider here. Furthermore,I
-consider only models in which cells are space-filling, meaning that any given
-voxel is occupied by at most one cell. The cell moves by adding adjacent
-unoccupied voxels and leaving border vxoesl.
+collection of voxels. (It is not strictly necessary that the voxels be
+connected, but that will always be the case in the models I consider
+here. Furthermore,I consider only models in which cells are space-filling,
+meaning that any given voxel is occupied by at most one cell.) The cell moves by
+adding adjacent unoccupied voxels and leaving border vxoesl.
 
 Movement is controlled by the Metropolis algorithm. Some internal process
 generates possible random steps. (How possible steps are produced is a key
-consdieration in any Metropolis computation. morpheus's random step controller
-is completely undocumented, as far as I was able to determine.) There is a
-Hamiltonian function associated with the cell's configuration, whic hassigns an
-energy to every possible configuration. Chemotaxis, for instance, is modeled by
-a Hamiltonian that assigns lower energy to any configuration in which the
-chemoattractant is at high concentration in the voxels occupied by the cell. To
-decide whether to take a step, the Hamiltonian is evaluated in the before and
-after conifugurations (i.e., in the configuration before the step is taken and
-the configuration that will obtain after the step is taken if it is accepted.)
-If the change in energy is ngetaive, the step is accepted. If the change in
-energy is positive, it is accepted with Boltzmann probability exp(-deltaE/T),
-where the temperature T is a parameter of the simulation. The result is that the
-cell tends to move towards low-energy configurations, but at higher temperatures
-will also sometimes move towards high energy. 
+consideration in any Metropolis computation. morpheus's random CPM step
+controller is completely undocumented, as far as I was able to determine.) There
+is a Hamiltonian function associated with the cell's configuration, which
+assigns an energy to every possible configuration. Chemotaxis, for instance, is
+modeled by a Hamiltonian that assigns lower energy to any configuration in which
+the chemoattractant is at high concentration in the voxels occupied by the
+cell. To decide whether to take a step, the Hamiltonian is evaluated in the
+before and after configurations (i.e., in the configuration before the step is
+taken and the configuration that will obtain after the step is taken if it is
+accepted.)  If the change in energy is ngetaive, the step is accepted. If the
+change in energy is positive, it is accepted with Boltzmann probability
+exp(-deltaE/T), where the Metropolis temperature T is a parameter of the
+simulation. The result is that the cell tends to move towards low-energy
+configurations, but at higher temperatures will also sometimes move towards high
+energy.
 
 As a model of C elegans movement the CPM has three main defects. The first and
 obviously most serious is that it bears no resemblance to the biology of worm
-chemotaxis. A worm doesn't sense chemoattractants and repellents thorughout it's
+chemotaxis. A worm doesn't sense chemoattractants and repellents throughout its
 entire volume. In fact, they are sensed by two tiny chemosensory organs, the
 amphids, at the anterior end. Also, the worm doesn't move by oozing random parts
 of its body into adjacent regions of space. It moves the amphids by bending the
@@ -55,20 +56,20 @@ head to move the nose back and forth, and by propagating waves along the length
 of the body to move the nose forward or backward. The simplest way to think of
 this is that the worm can move the amphids in any way that it wants, with little
 physical constraint. The main physical constraints are that the velocity of
-movement is limited, and that the worms take up space, so that there is a limti
+movement is limited, and that the worms take up space, so that there is a limit
 to how many anphids can be crowded into a small space. (The CPM actually deals
 quite well with the space-filling constraint.)
 
 The second defect of the CPM for our purposes is that the meaning of the
-parameters is unclear. For instance, there is no simple relationship betwee the
-parameters of the CPM and any physically measureable quantity, such as the
-velocity with which a chemotaxign worm moves on a chemical gradient, or the rate
+parameters is unclear. For instance, there is no simple relationship between the
+parameters of the CPM and any physically measurable quantity, such as the
+velocity with which a chemotaxing worm moves on a chemical gradient, or the rate
 of diffusional spread of a population of worms. This problem means that it is
-difficult to imposible to parametrize the CPM so that its results can be
+difficult to impossible to parametrize the CPM so that its results can be
 expected to correspond quantitatively to the PDE model. We did our best to solve
 this problem by calibration, but since the relationship of velocity to chemical
-gradient is nonlinear (it is approximate dby a hyberbolic tangent), this is not
-entirely possible. We eventually deicded to parametrix the model in such as way
+gradient is nonlinear (it is approximated by a hyberbolic tangent), this is not
+entirely possible. We eventually deicded to parametrize the model in such as way
 as to preserve equilibria to the extent possible, but not kinetics. (In
 principle this problem can be solved by taking very short time steps, but that
 exacerbates the third problem.)
@@ -76,28 +77,184 @@ exacerbates the third problem.)
 The third defect of the CPM is that it is computationally expensive. It works
 very hard to accurately model the complex movements of an amoeboid cell, which
 of course a worm is not. Finally, this line from the morpheus documentation was
-the kiss of death:
+the coup de grace:
 
     Morpheus employs OpenMP as the workload-sharing construct. CPM computation,
     however, does not yet make use of OpenMP.
 
 There is no parallelization of CPM computations. This means there is no benefit
-from running a big problem at a high-performing-computing facility. The model
-runs no faster when multiple processors are avialable than on a single
+from running a big problem at a high-performance-computing (HPC) facility. The
+model runs no faster when multiple processors are available than on a single
 processor. (In fact, it runs slightly more slowly in a multiprocessing
 configuration.) Our most important model, worm6c.xml, which models 9000 worms on
 a 1 cm square, requires a week and a half to run to completion. Other
-simulations, such as one modeling 72000 worms on a 6 cm square, are totally
-infeasible.
+simulations from the paper, such as the one modeling 72000 worms on a 6 cm
+square, are totally infeasible.
 
-The morpheus implementation of the CPM provided two benefits. First adn most
-importnat, it made it practical to develop an individual-based model without
+The morpheus implementation of the CPM provided two benefits. First and most
+important, it made it practical to develop an individual-based model without
 software development. Second, it handles the volume-filling constraint
-naturally -- this is delat with in an ad hoc way in the PDE model. 
+naturally -- this is dealt with in an ad hoc way in the PDE model. 
 
 CONTENTS OF THE REPO
 
+I must begin by apologizing. I have not rationalized or cleaned up this
+repository. It contains some files that were produced along the way and no
+longer serve any purpose. 
+
+The main contents of this repository are a bunch of morpheus models in the form
+of MorpheusML files, which can be recognized by their .xml extensions. There are
+also shell scripts for bash (.sh extension) or tcsh (.csh extension) intended
+for running these models on an HPC facility. There are, in addition, three
+Mathematicca notebooks (.nb extension) of analysis.
+
+Morpheus comes as two executable files, the graphical user interface (GUI)
+morpheus-gui and the program that runs the simulations, which is just morpheus
+(or morpheus.exe on a Windows system). The GUI is used mainly to create and edit
+models, which are saved as MorpheusML files. To run a model one executes a
+command like:
+
+    morpheus -f worm6c.xml --outdir worm6/sim6c1
+
+This will run the model in worm6c.xml and store the output in a directory
+worm6/sim6c1 (which you must create beforehand). The GUI also contains
+facilities for running models. If you use an HPC facility to run the
+simulations, you can create MorpheusML files on your PC, copy them to the HPC
+facility, and run them there. 
+
+The models are in directories worm1 - worm6. worm1 and worm2 were really just me
+playing around, figuring out how to tell morpheus to do what I want. worm3 and
+worm4 contain models used to calibrate the morpheus CPM chemotaxis
+plug-in. These models create 100 worms in a bunch near the left edge of a large
+square field with a uniform gradient of chemoattractant. When the model runs,
+the worms move right (in the direction of increasing attractant) and spread
+out. By measuring the mean and standard deviation of worm movement with
+differing values of the chemotaxis strength and the Metropolis kinetic
+temperature, it is possible to work out how velocity and diffusion depend on
+these parameters.
+
+The shell scripts were designed for the SLURM scheduler as installed on
+graham.computecanada.ca. I'm not sure how well they will work on other systems
+-- you may need to edit them. To use them you will need for $HOME/morpheus to
+point to the root directory of the distribution. (A symlink is fine.) From this
+root directory you can then say something like
+
+    sbatch worm5h.sh
+
+to submit one. Most of the scripts in the root directory do very little
+directly. They contain #SBATCH instructions to the scheduler specifying
+resources needed, then they run a second script in a subdirectory that does most
+of the work, e.g. worm5s/worm5hs.sh. (worm5s is just a symlink to worm5 -- in my
+usage it is a symlink to a directory on the scratch filesystem, which is used
+for large temporary files.) I wrote the script this way because once the script
+worm5h.sh has been submitted, it cannot be changed, even if it is still just
+waiting in the queue to run. worm5/wormhs.sh, on the other hand, is not read
+until the job runs, so it can still be changed after a job has been
+submitted. The bin subdirectory contains some tools used by these scripts.
+
+Mathematica notebooks math2/math2.nb, math3/math3.nb, and math4/math4.nb contain
+the analysis of the calibration runs. Since Mathematica is commercial software,
+I also included PDF prinouts of these notebooks in math2/math2.pdf,
+math3/math3.pdf, and math4/math4.pdf. If you have Mathematica and want to run
+worm2.nb amd worm3.nb, you will first need to uncompress the csv files, which
+you can do like this:
+
+    find worm2 worm3 -name '*.csv.xz' -print0 | xz -v --files0 --decompress
+
+However, the most important calibration runs are in worm4, specifcally
+worm4b. To keep the repo small, I don't include those results here -- you'll
+need to run the models. The best way to run the worm4b calibration is with
+make. The submake directories can be set up with the csh script
+makefiles4b.csh. I have also included them in empty form in worm4/worm4b. The
+top-level script worm4b.csh will run the make. make can efficiently use
+multiprocessing, so this is definitely the best way to run the calibration on an
+HPC facility. One the models have been run, worm4/worm4.nb can be run to analyze
+the csv files.
+
+The most important models are in worm5 and worm6. worm5 is the "attractant-only"
+model of the paper and worm6 is the "attractant+repellent" model. They come in
+slight variations, worm5a-worm5h and worm6a-worm6e. These differ mainly in
+dimensions. For instance, worm5g and worm6c are 1 cm square, 200,000 second
+version of the models, while worm5h and worm6e are 0.5 cm square 1e7 second
+versions. jobs to run these can be submitted with the scripts worm5g.sh,
+worm5h.sh, worm6c.sh and worm6e.sh. worm5hreseed.sh and worm6ereseed.sh can be
+used to run them with different random seeds, e.g.
+
+    env SEED=11 sbatch worm5hreseed.sh
+
+to run model worm5h with random seed 11.
+
+On graham, worm5g takes a few days to run, while worm6c takes a week and a
+half. worm5h and worm6e are projected to take many weeks (88 days for worm6e)
+but have not yet been run to completion.
+
+On graham the maximum duration of a SLURM job is 7 days wall clock time. So
+worm6c, worm6e, and worm5h cannot be run to completion in a single job. I
+created the nextworm6c.sh, spawn5h.sh and spawn6e.sh scripts for these
+models. Suppose you submitted worm6c.sh and it is running as job 46399405. To
+complete the simulation, submit nextworm6c.sh as follows:
+
+    sbatch -d afternotok:46399405 nextworm6c.sh
+
+This submits nextworm6c to run when job 46399405 ends with an error (it should
+time out after a week -- a time out is an error).
+
+spawn5h and spawn6e are slightly more complicated to use (my fault -- I should
+have arranged that this could all be done by submitting a single process, but I
+kind of made it up as I went along.) First, start a simulation by submitting
+worm5hreseed.sh as above. Suppose this is job 46832032. Once this job begins it
+will create a directory worm5/sim5hseed11. Now you do the following:
+
+    cd worm5
+    ln -s sim5hseed11 sim5hseed11-00
+    echo '00' > sim5hseed11/inprogress
+    cd ..
+    env SEED=11 STEP='00' sbatch -d afternotok:46832032 spawn5h.sh
+
+The spawn5h.sh job you just submitted will wait patiently for your
+worm5hreseed.sh job to time out. It will then run, storing its results in
+worm5/sim5hseed11-01. ASt the same time, it submits increments the STEP value
+and submits spawn5h.sh to run again when step 01 completes. The end result
+should be a series of directories worm/sim5hseed11-01, 02, 03, ... until the
+entire simulation is finished. In principle. I always monitor the runs
+closely, though. 
+
 EXPLANATIONS OF SOME ODD POINTS OF MODEL CONSTRUCTION
+
+First, you will notice that these models are set to start at t=1500 and finish
+at t=201500 or t=10001500, and to checkpoint every 1500 s. This is a partial
+workaroudn for a bug in morpheus. Checkpointing is essential for the multistage
+simulations described above. Unfortunately, morpheus sometimes fails to
+checkpoint even if the MorpheusML file tells it to do so. The good news is (1)
+If it checkpoints once, it will continue to checkpoint every 1500 s thereafter,
+and (2) If you start it from a checkpoint, it will always checkpoint thereafter,
+and (3) It is more likely to checkpoint if started at t=1500 seconds than if
+started at t=0, and it does so immediately. Thus I start all models at 1500s so
+that I will know immediately if the checkpointing is failing.
+
+In the paper there is a parameter sigma that determines the rate of worm
+movement. In my PDE-solving code this parameter is called s2 for uninteresting
+historical reasons. In the morpheus models, you will see that there is indeed a
+parameter s2, but it is completely unused. This is why:
+
+First of all, the actual rate of worm random diffusion is not something one can
+set through a single transparent parameter in the CPM. Rather, it is determined
+by the Morpheus kinetics temperature, and was measured through those tedious CPM
+calibration runs described above (model worm4b). Now, my plan was to give
+beta_a and beta_r (chemotactic strength) the same values as in the paper, and
+then to adjust the CPM chemotactic strength so that this worked out to give the
+right velocities. (Neither the CPM chemotactic strength nor the betas matter on
+their own -- it is only their product that is significant.) But this ran into a
+problem with morpheus. The values of the betas are around 2*s2 ~ 1e-5, which
+means that V, the potential field, also has values in that ballpark. But
+morpheus has a problem with small numbers. morpheus's numeric output is in CSV
+files, which represent numbers as text. Numbers near 1e-5 are written in the CSV
+files as 0.00001. So all precision is lost. To fix this I multiplied the CPM
+chemotactic strength parameter by s2 and divided the betas by s2, giving me
+potential fields of order 1.
+
+Worm size is set to 5 voxels. That was calculated from the size of a real worm
+and the actual area of a voxel.
 
 REFERENCES
 

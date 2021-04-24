@@ -1,0 +1,12 @@
+#!/bin/tcsh
+#
+if (-x /bin/nice) then
+    set gnice=/bin/nice
+else if (-x /usr/bin/nice) then
+    set gnice=/usr/bin/nice
+else
+    gnice=nice
+endif
+alias gnice $gnice
+
+gnice $*
