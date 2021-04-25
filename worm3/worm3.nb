@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    969871,      19074]
-NotebookOptionsPosition[    960810,      18909]
-NotebookOutlinePosition[    961215,      18925]
-CellTagsIndexPosition[    961172,      18922]
+NotebookDataLength[    970136,      19065]
+NotebookOptionsPosition[    961077,      18900]
+NotebookOutlinePosition[    961482,      18916]
+CellTagsIndexPosition[    961439,      18913]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,10 +30,11 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{"\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3.nb\"\>", 
-   ",", "\<\"Sun 7 Mar 2021 06:09:02\"\>"}], "}"}]], "Output",
- CellChangeTimes->{3.8239513329232707`*^9, 3.8241041427605467`*^9},
- CellLabel->"Out[1]=",ExpressionUUID->"7639015d-12ff-4bd4-899d-e23d5bea4e80"]
+  RowBox[{"\<\"H:\\\\morpheus\\\\worm3\\\\worm3.nb\"\>", 
+   ",", "\<\"Sat 24 Apr 2021 11:14:54\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.8239513329232707`*^9, 3.8241041427605467`*^9, 
+  3.8282660943876343`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"e7a6f764-d6b6-42cd-abfe-3d6fc1804a22"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -69,8 +70,8 @@ Cell[BoxData["5"], "Output",
    3.8225546561975822`*^9, 3.8225715704437*^9, 3.82257271401398*^9, 
    3.8226399913684125`*^9, 3.822719044337097*^9, 3.8227527390558133`*^9, 
    3.822812149492562*^9, 3.822922951698865*^9, 3.8229853454759717`*^9, 
-   3.8239513766286654`*^9, 3.8241041501216407`*^9},
- CellLabel->"Out[3]=",ExpressionUUID->"aab21c72-bd7b-4510-a7e7-49964cd519a7"]
+   3.8239513766286654`*^9, 3.8241041501216407`*^9, 3.828266094607356*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"f06fa766-185a-439b-b803-43743770ac7a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -82,7 +83,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.7764369245581083`*^9, 3.776436971403391*^9}},
  CellLabel->"In[4]:=",ExpressionUUID->"7f52fcb0-c287-4ccc-b315-ac867cf150f1"],
 
-Cell[BoxData["\<\"D:\\\\WSL\\\\morpheus\\\\worm3\"\>"], "Output",
+Cell[BoxData["\<\"H:\\\\morpheus\\\\worm3\"\>"], "Output",
  CellChangeTimes->{{3.776436956549466*^9, 3.7764369720555763`*^9}, 
    3.7765933633735733`*^9, 3.7766731863188877`*^9, 3.7766954688111362`*^9, 
    3.776760976360669*^9, 3.776773761449964*^9, 3.776776024575918*^9, 
@@ -108,8 +109,9 @@ Cell[BoxData["\<\"D:\\\\WSL\\\\morpheus\\\\worm3\"\>"], "Output",
    3.8224063360179586`*^9, 3.8225546563125796`*^9, 3.8225715705942135`*^9, 
    3.8225727140802155`*^9, 3.8226399914133744`*^9, 3.8227190444250937`*^9, 
    3.8227527391188135`*^9, 3.822812149595563*^9, 3.8229229517498665`*^9, 
-   3.822985345526972*^9, 3.8239513778009834`*^9, 3.824104150192671*^9},
- CellLabel->"Out[4]=",ExpressionUUID->"e987e9d0-e5fb-425e-8b2f-1ca14b7eaf4f"]
+   3.822985345526972*^9, 3.8239513778009834`*^9, 3.824104150192671*^9, 
+   3.828266094677246*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"c43de431-32b0-4c4c-845c-d4dbf7bd1736"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -124,8 +126,8 @@ Cell[BoxData[
 
 Cell[BoxData["\<\"worm3\"\>"], "Output",
  CellChangeTimes->{{3.8239514571247454`*^9, 3.8239514652699165`*^9}, 
-   3.8241041502396736`*^9},
- CellLabel->"Out[5]=",ExpressionUUID->"ec20bc1e-23b9-4f10-8fa2-ae3308254988"]
+   3.8241041502396736`*^9, 3.8282660947652135`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"c151f4aa-93fb-4872-bce1-57a7765c2a2d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -136,8 +138,9 @@ Cell[BoxData[
  CellLabel->"In[6]:=",ExpressionUUID->"ccb81f1f-4c36-4118-8d86-27a06c4e4b68"],
 
 Cell[BoxData["\<\"logger.csv\"\>"], "Output",
- CellChangeTimes->{3.8239516197799234`*^9, 3.824104150289674*^9},
- CellLabel->"Out[6]=",ExpressionUUID->"4e045612-39ba-40aa-8e4d-85bf64bea559"]
+ CellChangeTimes->{3.8239516197799234`*^9, 3.824104150289674*^9, 
+  3.828266094826833*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"b7148b7a-adc4-4105-9175-b01304f9b2bf"]
 }, Open  ]]
 }, Open  ]],
 
@@ -155,12 +158,12 @@ Cell[BoxData[
  RowBox[{"sweep", "=", "13"}]], "Input",
  CellChangeTimes->{{3.823951472557169*^9, 3.8239514801701317`*^9}, {
   3.8241061563893375`*^9, 3.8241061570137568`*^9}},
- CellLabel->"In[41]:=",ExpressionUUID->"47135292-3cab-4f94-8e6c-17d6f0be4de2"],
+ CellLabel->"In[7]:=",ExpressionUUID->"47135292-3cab-4f94-8e6c-17d6f0be4de2"],
 
 Cell[BoxData["13"], "Output",
  CellChangeTimes->{3.8239514809391336`*^9, 3.823954725034125*^9, 
-  3.8241061599261303`*^9, 3.8241221455696464`*^9},
- CellLabel->"Out[41]=",ExpressionUUID->"be440e87-f3da-4ae5-a0e1-7f65cb0869fd"]
+  3.8241061599261303`*^9, 3.8241221455696464`*^9, 3.8282660949055777`*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"4c50ea3a-1e86-41fb-836c-97fa91155535"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -175,11 +178,10 @@ Cell[BoxData[
  CellChangeTimes->{{3.8239514838958044`*^9, 3.823951528112116*^9}},
  CellLabel->"In[8]:=",ExpressionUUID->"3def9be0-2aaa-476b-ac2e-f193658c026a"],
 
-Cell[BoxData["\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\"\>"], \
-"Output",
+Cell[BoxData["\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\"\>"], "Output",
  CellChangeTimes->{3.8239515285431757`*^9, 3.823954726056017*^9, 
-  3.8241061638645744`*^9},
- CellLabel->"Out[8]=",ExpressionUUID->"9019eea7-a7da-46bb-bd0b-c8f57e61a8a2"]
+  3.8241061638645744`*^9, 3.8282660949611926`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"2575ce3f-3ec2-4fce-9600-14af68da9a6f"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -191,7 +193,7 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.824122576619517*^9, 3.8241225879639573`*^9}, {
   3.824122640964473*^9, 3.824122669216467*^9}},
- CellLabel->"In[59]:=",ExpressionUUID->"2b5ac9c2-b640-41bc-8316-33f0de44dad3"],
+ CellLabel->"In[9]:=",ExpressionUUID->"2b5ac9c2-b640-41bc-8316-33f0de44dad3"],
 
 Cell[CellGroupData[{
 
@@ -199,11 +201,11 @@ Cell[BoxData[
  RowBox[{"\"\<sweeps\>\"", "<>", 
   RowBox[{"ToString", "[", "sweep", "]"}], "<>", "\"\<=sweeps\>\""}]], "Input",
  CellChangeTimes->{{3.8241225981357145`*^9, 3.824122624989936*^9}},
- CellLabel->"In[57]:=",ExpressionUUID->"1d9180fd-7205-4b6e-a2ce-662463f3d6e4"],
+ CellLabel->"In[10]:=",ExpressionUUID->"1d9180fd-7205-4b6e-a2ce-662463f3d6e4"],
 
 Cell[BoxData["\<\"sweeps13=sweeps\"\>"], "Output",
- CellChangeTimes->{3.824122626123237*^9},
- CellLabel->"Out[57]=",ExpressionUUID->"71a5a20d-e3c4-499b-b096-f4632e306862"]
+ CellChangeTimes->{3.824122626123237*^9, 3.8282660950364447`*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"acc6cf86-28e4-436c-a090-2b24bd6e6695"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -215,40 +217,40 @@ Cell[BoxData[
   "\[IndentingNewLine]", "]"}]], "Input",
  CellChangeTimes->{{3.8241222202708693`*^9, 3.8241222323534393`*^9}, {
    3.824122529543167*^9, 3.824122532390081*^9}, 3.8241226779759483`*^9},
- CellLabel->"In[60]:=",ExpressionUUID->"2d7520ac-4103-4dc9-83ce-91a45efd6559"],
+ CellLabel->"In[11]:=",ExpressionUUID->"2d7520ac-4103-4dc9-83ce-91a45efd6559"],
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{"\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_166\"\
-\>", ",", \
-"\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_167\"\>", 
-   ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_168\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_169\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_170\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_171\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_172\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_173\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_174\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_175\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_176\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_177\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_178\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_179\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_180\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_181\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_182\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_183\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_184\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_185\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_186\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_187\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_188\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_189\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_190\"\>\
-"}], "}"}]], "Output",
+  RowBox[{"\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_166\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_167\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_168\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_169\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_170\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_171\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_172\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_173\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_174\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_175\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_176\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_177\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_178\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_179\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_180\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_181\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_182\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_183\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_184\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_185\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_186\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_187\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_188\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_189\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_13\\\\worm3_190\"\>"}], 
+  "}"}]], "Output",
  CellChangeTimes->{{3.8241222250511265`*^9, 3.8241222328997717`*^9}, 
-   3.824122476141676*^9, 3.8241225331750374`*^9, 3.8241226794111004`*^9},
- CellLabel->"Out[60]=",ExpressionUUID->"87c4f809-ca15-4367-b78f-d2411ab1ca3c"]
+   3.824122476141676*^9, 3.8241225331750374`*^9, 3.8241226794111004`*^9, 
+   3.828266095095669*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"fcc442cd-5c1d-41da-bd03-267cf2c088fe"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -272,7 +274,7 @@ Cell[BoxData[
    3.823951723927387*^9, 3.8239517346626387`*^9}, {3.823951770807414*^9, 
    3.823951774551365*^9}, {3.8239518068554916`*^9, 3.8239518325160007`*^9}, 
    3.823954710785793*^9, {3.8241061824718795`*^9, 3.8241061873405743`*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"4ce06e38-08ea-49d2-b449-f8bfe64da270"],
+ CellLabel->"In[12]:=",ExpressionUUID->"4ce06e38-08ea-49d2-b449-f8bfe64da270"],
 
 Cell[BoxData[
  TagBox[
@@ -1099,7 +1101,7 @@ Cell[BoxData[
        DirectedInfinity[1], {}], "InitialType" -> TypeSystem`Vector[
        TypeSystem`Assoc[
        TypeSystem`AnyType, TypeSystem`AnyType, TypeSystem`AnyLength], 204], 
-     "Meta" -> Association["ID" -> 230197588728701], "RowTarget" -> 20, 
+     "Meta" -> Association["ID" -> 118867745612591], "RowTarget" -> 20, 
      "ColumnTarget" -> 10, "Shape" -> TypeSystem`PackageScope`Limited[
        TypeSystem`PackageScope`ColumnShape[
         TypeSystem`PackageScope`Limited[
@@ -2992,13 +2994,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{200., {365., 371.}},
+      ImageSizeCache->{149., {279., 282.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{200., {365., 371.}}],
+     ImageSizeCache->{149., {279., 282.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -3015,8 +3017,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
  CellChangeTimes->{
   3.8239516608897114`*^9, 3.823951735548908*^9, 3.823951778260043*^9, {
    3.8239518150454426`*^9, 3.8239518339610834`*^9}, {3.8239547117239246`*^9, 
-   3.823954728908739*^9}, 3.824106189451631*^9},
- CellLabel->"Out[10]=",ExpressionUUID->"7d65743d-1d15-48f7-978a-4b1b9d775501"]
+   3.823954728908739*^9}, 3.824106189451631*^9, 3.8282660959162564`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"7622737c-9aba-4d74-8fcd-136b57988a70"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3027,12 +3029,13 @@ Cell[BoxData[
   "[", "\"\<MKtemp\>\"", "]"}]], "Input",
  CellChangeTimes->{{3.823951840341219*^9, 3.823951908054986*^9}, {
   3.8241061957008076`*^9, 3.8241061962633257`*^9}},
- CellLabel->"In[11]:=",ExpressionUUID->"ed6acd98-04df-43bc-b5bf-87356bb84974"],
+ CellLabel->"In[13]:=",ExpressionUUID->"ed6acd98-04df-43bc-b5bf-87356bb84974"],
 
 Cell[BoxData["0.4`"], "Output",
  CellChangeTimes->{{3.8239518510361366`*^9, 3.8239519085112514`*^9}, {
-   3.8239547160166235`*^9, 3.823954730990218*^9}, 3.8241061972154264`*^9},
- CellLabel->"Out[11]=",ExpressionUUID->"97b2b1d2-c370-4794-93af-62a1b4c081a3"]
+   3.8239547160166235`*^9, 3.823954730990218*^9}, 3.8241061972154264`*^9, 
+   3.828266096572164*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"ac1d2300-c516-4aea-b641-c0ab32c46fc7"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3043,7 +3046,7 @@ Cell[BoxData[
   "//", "Keys"}]], "Input",
  CellChangeTimes->{{3.823952312859335*^9, 3.823952348071347*^9}, {
   3.8241062036432333`*^9, 3.8241062042004347`*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"26b2050f-d886-46f1-ac84-3c7fd5ed4883"],
+ CellLabel->"In[14]:=",ExpressionUUID->"26b2050f-d886-46f1-ac84-3c7fd5ed4883"],
 
 Cell[BoxData[
  TagBox[
@@ -3058,7 +3061,7 @@ Cell[BoxData[
         TypeSystem`PackageScope`AtomShape[124.80000000000001`]], 8, 
        DirectedInfinity[1], {}], "InitialType" -> TypeSystem`Vector[
        TypeSystem`Atom[String], 8], "Meta" -> 
-     Association["ID" -> 230210473630605], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 118880630514481], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`Limited[
        TypeSystem`PackageScope`ColumnShape[
         TypeSystem`PackageScope`AtomShape[124.80000000000001`]], 8, 
@@ -3449,13 +3452,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{153., {111., 117.}},
+      ImageSizeCache->{146., {88., 91.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{153., {111., 117.}}],
+     ImageSizeCache->{146., {88., 91.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -3470,8 +3473,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{{3.82395231798512*^9, 3.823952348543213*^9}, {
-   3.823954719363946*^9, 3.823954732330892*^9}, 3.8241062050413294`*^9},
- CellLabel->"Out[12]=",ExpressionUUID->"513fc16b-c942-4ba9-b846-97c7e6ea3eee"]
+   3.823954719363946*^9, 3.823954732330892*^9}, 3.8241062050413294`*^9, 
+   3.828266096640864*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"a4108961-47bd-445d-ab6a-6dd70985281a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3486,7 +3490,7 @@ Cell[BoxData[
   3.823952255974597*^9, 3.823952308184078*^9}, {3.8239525103906507`*^9, 
   3.8239525226387367`*^9}, {3.823952557174115*^9, 3.823952725406871*^9}, {
   3.8241062255500097`*^9, 3.8241062263724403`*^9}},
- CellLabel->"In[13]:=",ExpressionUUID->"baa6c5f5-2007-45db-a244-1025cedd9d39"],
+ CellLabel->"In[15]:=",ExpressionUUID->"baa6c5f5-2007-45db-a244-1025cedd9d39"],
 
 Cell[BoxData[
  TagBox[
@@ -3928,7 +3932,7 @@ Cell[BoxData[
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 101], "Meta" -> 
-     Association["ID" -> 230219063565219], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 118889220449073], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "time"} -> 1, {All, "cell.id"} -> 
         1, {All, "cell.center.x"} -> 1, {All, "cell.center.y"} -> 
@@ -6538,13 +6542,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{535., {277., 283.}},
+      ImageSizeCache->{504., {219., 222.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{535., {277., 283.}}],
+     ImageSizeCache->{504., {219., 222.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -6560,8 +6564,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Selectable->False]], "Output",
  CellChangeTimes->{{3.8239522715949373`*^9, 3.823952309294803*^9}, 
    3.8239525231376657`*^9, {3.823952578373426*^9, 3.823952726120032*^9}, 
-   3.823954734437155*^9, 3.824106227408655*^9},
- CellLabel->"Out[13]=",ExpressionUUID->"f158129e-7a53-4167-91cf-c3f492b50e6f"]
+   3.823954734437155*^9, 3.824106227408655*^9, 3.8282660969328127`*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"6220936e-d79a-49b3-bdcb-9044f42e3bde"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6576,7 +6580,7 @@ Cell[BoxData[
   "]"}]], "Input",
  CellChangeTimes->{{3.8239527909996104`*^9, 3.823952931458803*^9}, {
   3.8241062341147614`*^9, 3.8241062346754007`*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"645f5a77-c445-4a72-bbb9-ad5eb60556e5"],
+ CellLabel->"In[16]:=",ExpressionUUID->"645f5a77-c445-4a72-bbb9-ad5eb60556e5"],
 
 Cell[BoxData[
  TagBox[
@@ -6600,7 +6604,7 @@ Cell[BoxData[
         "cell.center.x", "cell.center.y", "cell.id", "cmstrength", 
          "delta_r.x", "delta_r.y", "MKtemp", "time"]], 
        TypeSystem`Atom[Real], 8], "Meta" -> 
-     Association["ID" -> 230231948467116], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 118902105350962], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`Limited[
        TypeSystem`PackageScope`ColumnShape[
         TypeSystem`PackageScope`KeyValueShape[
@@ -7229,13 +7233,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{213., {111., 117.}},
+      ImageSizeCache->{204., {88., 91.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{213., {111., 117.}}],
+     ImageSizeCache->{204., {88., 91.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -7251,8 +7255,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Selectable->False]], "Output",
  CellChangeTimes->{
   3.8239528385679016`*^9, {3.8239528739968257`*^9, 3.823952900702093*^9}, 
-   3.823952932432887*^9, 3.823954737279516*^9, 3.8241062360153074`*^9},
- CellLabel->"Out[14]=",ExpressionUUID->"1daa4f75-133a-4027-b41d-02b7f7fbea34"]
+   3.823952932432887*^9, 3.823954737279516*^9, 3.8241062360153074`*^9, 
+   3.8282660975433664`*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"e87edb01-6218-4e4d-acba-6ed181c775bc"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -7360,7 +7365,7 @@ Cell[BoxData[
   3.8241063110986595`*^9}, {3.82410634194633*^9, 3.824106373897461*^9}, {
   3.824106405780402*^9, 3.82410646190338*^9}, {3.8241066065770016`*^9, 
   3.8241066958005342`*^9}, {3.8241123322872553`*^9, 3.8241123955765977`*^9}},
- CellLabel->"In[34]:=",ExpressionUUID->"2875346e-abfc-4683-ae80-1c1ea99dac33"],
+ CellLabel->"In[17]:=",ExpressionUUID->"2875346e-abfc-4683-ae80-1c1ea99dac33"],
 
 Cell[CellGroupData[{
 
@@ -7373,7 +7378,7 @@ Cell[BoxData[
    3.8239535031060095`*^9}, {3.8239536643923883`*^9, 
    3.8239536724996715`*^9}, {3.8239538394703407`*^9, 3.8239538411181393`*^9}, 
    3.823954748414229*^9, {3.8241063786298656`*^9, 3.824106388598363*^9}},
- CellLabel->"In[35]:=",ExpressionUUID->"7c19041d-5070-42c6-83cb-6226b3e1bc76"],
+ CellLabel->"In[18]:=",ExpressionUUID->"7c19041d-5070-42c6-83cb-6226b3e1bc76"],
 
 Cell[BoxData[
  RowBox[{"\[LeftAssociation]", 
@@ -7395,8 +7400,8 @@ Cell[BoxData[
    3.8239538295727124`*^9, 3.823953858869856*^9}, 3.8239538904645753`*^9, 
    3.8239539241369095`*^9, {3.8239547407986336`*^9, 3.8239547491541944`*^9}, {
    3.824106380535405*^9, 3.8241064114603233`*^9}, 3.8241064644975896`*^9, 
-   3.8241066996707973`*^9, 3.824112401561784*^9},
- CellLabel->"Out[35]=",ExpressionUUID->"2d468607-1a20-4302-b1a0-2cedd604420f"]
+   3.8241066996707973`*^9, 3.824112401561784*^9, 3.8282660977898383`*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"8971c166-4a93-4bae-89d4-8f5af0f69d79"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -7406,7 +7411,7 @@ Cell[BoxData[
     RowBox[{"estimateVelocityDiffusion", "/@", "sweeps"}], "]"}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.8241227833698072`*^9, 3.8241228203239665`*^9}},
- CellLabel->"In[62]:=",ExpressionUUID->"e1f99916-d349-4b55-84f7-cc0cc0549a43"],
+ CellLabel->"In[19]:=",ExpressionUUID->"e1f99916-d349-4b55-84f7-cc0cc0549a43"],
 
 Cell[CellGroupData[{
 
@@ -7414,11 +7419,11 @@ Cell[BoxData[
  RowBox[{"\"\<ds\>\"", "<>", 
   RowBox[{"ToString", "[", "sweep", "]"}], "<>", "\"\<=ds\>\""}]], "Input",
  CellChangeTimes->{{3.824122827356073*^9, 3.8241228468470883`*^9}},
- CellLabel->"In[63]:=",ExpressionUUID->"ebd2acd4-db40-4d00-9e99-af156bfbd7f5"],
+ CellLabel->"In[20]:=",ExpressionUUID->"ebd2acd4-db40-4d00-9e99-af156bfbd7f5"],
 
 Cell[BoxData["\<\"ds13=ds\"\>"], "Output",
- CellChangeTimes->{3.824122847597725*^9},
- CellLabel->"Out[63]=",ExpressionUUID->"fae09de3-684d-49c4-8fea-4e4618314489"]
+ CellChangeTimes->{3.824122847597725*^9, 3.8282660995717993`*^9},
+ CellLabel->"Out[20]=",ExpressionUUID->"b217f512-1d40-4a46-87ac-8a7e2f3ef911"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7430,7 +7435,7 @@ Cell[BoxData[
   "\[IndentingNewLine]", "]"}]], "Input",
  CellChangeTimes->{{3.824122398232543*^9, 3.8241224151018467`*^9}, 
    3.8241228565132494`*^9},
- CellLabel->"In[64]:=",ExpressionUUID->"e536c144-8eb1-403a-a311-0697dce83f38"],
+ CellLabel->"In[21]:=",ExpressionUUID->"e536c144-8eb1-403a-a311-0697dce83f38"],
 
 Cell[BoxData[
  TagBox[
@@ -7564,7 +7569,7 @@ Cell[BoxData[
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 25], "Meta" -> 
-     Association["ID" -> 29571076414582], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 120023091815219], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "cmstrength"} -> 1, {All, "temperature"} -> 
         1, {All, "tfinal"} -> 1, {All, "vmean"} -> 1, {All, "Dx"} -> 
@@ -9921,13 +9926,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{514., {277., 283.}},
+      ImageSizeCache->{464., {219., 222.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{514., {277., 283.}}],
+     ImageSizeCache->{464., {219., 222.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -9941,8 +9946,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellChangeTimes->{3.8241224183961086`*^9, 3.824122858150097*^9},
- CellLabel->"Out[64]=",ExpressionUUID->"965a551a-5680-42c1-8681-e6a967744cb1"]
+ CellChangeTimes->{3.8241224183961086`*^9, 3.824122858150097*^9, 
+  3.8282660997404437`*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"0d4e75f5-bfee-4560-9de6-2c5323dad358"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -9954,7 +9960,7 @@ Cell[BoxData[
     RowBox[{"\"\<cmstrength\>\"", ",", "\"\<vmean\>\""}], "}"}]}], 
   "\[RightDoubleBracket]"}]], "Input",
  CellChangeTimes->{{3.824107213058556*^9, 3.824107258667805*^9}},
- CellLabel->"In[65]:=",ExpressionUUID->"0a71938d-b662-4c92-9867-fe480420b77f"],
+ CellLabel->"In[22]:=",ExpressionUUID->"0a71938d-b662-4c92-9867-fe480420b77f"],
 
 Cell[BoxData[
  TagBox[
@@ -10000,7 +10006,7 @@ Cell[BoxData[
        TypeSystem`Struct[{"cmstrength", "vmean"}, {
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 25], "Meta" -> 
-     Association["ID" -> 29575371381924], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 120027386782516], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "cmstrength"} -> 1, {All, "vmean"} -> 1], 
        TypeSystem`PackageScope`Limited[
@@ -11102,13 +11108,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{195., {277., 283.}},
+      ImageSizeCache->{160., {219., 222.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{195., {277., 283.}}],
+     ImageSizeCache->{160., {219., 222.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -11123,8 +11129,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{{3.8241072364184756`*^9, 3.8241072592582846`*^9}, 
-   3.8241224399450636`*^9, 3.8241228682166033`*^9},
- CellLabel->"Out[65]=",ExpressionUUID->"d02212de-33f8-44a5-bd7d-7fce44f5ef81"]
+   3.8241224399450636`*^9, 3.8241228682166033`*^9, 3.8282661003067956`*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"ba099650-96a4-4009-b3c4-5ca2b7b104c9"]
 }, Open  ]]
 }, Open  ]],
 
@@ -11146,13 +11152,13 @@ Cell[BoxData[
   3.8241061563893375`*^9, 3.8241061570137568`*^9}, {3.8241229597008677`*^9, 
   3.8241229599900274`*^9}, {3.8241231075901804`*^9, 3.8241231080861845`*^9}, {
   3.824124034119693*^9, 3.8241240346698313`*^9}},
- CellLabel->"In[90]:=",ExpressionUUID->"09bd79a4-4fcb-4d5b-b112-973f22375913"],
+ CellLabel->"In[23]:=",ExpressionUUID->"09bd79a4-4fcb-4d5b-b112-973f22375913"],
 
 Cell[BoxData["17"], "Output",
  CellChangeTimes->{3.8239514809391336`*^9, 3.823954725034125*^9, 
   3.8241061599261303`*^9, 3.8241221455696464`*^9, 3.824122960553774*^9, 
-  3.8241231086936955`*^9, 3.8241240364074726`*^9},
- CellLabel->"Out[90]=",ExpressionUUID->"f4dac4e0-fc16-440c-8df8-77c65f7486b3"]
+  3.8241231086936955`*^9, 3.8241240364074726`*^9, 3.8282661006469345`*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"23367323-5bb8-40eb-9e04-b7216f69640c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -11165,14 +11171,13 @@ Cell[BoxData[
      RowBox[{"modelName", "<>", "\"\<_sweep_\>\"", "<>", 
       RowBox[{"ToString", "[", "sweep", "]"}]}]}], "}"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8239514838958044`*^9, 3.823951528112116*^9}},
- CellLabel->"In[91]:=",ExpressionUUID->"65fe48fd-f13c-4071-8b66-51bce6f4e3ad"],
+ CellLabel->"In[24]:=",ExpressionUUID->"65fe48fd-f13c-4071-8b66-51bce6f4e3ad"],
 
-Cell[BoxData["\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\"\>"], \
-"Output",
+Cell[BoxData["\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\"\>"], "Output",
  CellChangeTimes->{3.8239515285431757`*^9, 3.823954726056017*^9, 
   3.8241061638645744`*^9, 3.8241229647459755`*^9, 3.8241231122067757`*^9, 
-  3.8241310825366583`*^9},
- CellLabel->"Out[91]=",ExpressionUUID->"b57820f6-ad78-47a8-9a6f-60a76c4d0baf"]
+  3.8241310825366583`*^9, 3.828266100695749*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"e1542488-d9c1-4d95-919e-a29270b8c69c"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -11184,7 +11189,7 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.824122576619517*^9, 3.8241225879639573`*^9}, {
   3.824122640964473*^9, 3.824122669216467*^9}},
- CellLabel->"In[92]:=",ExpressionUUID->"a77e0880-5dd2-46a0-9914-0ae7706ec79d"],
+ CellLabel->"In[25]:=",ExpressionUUID->"a77e0880-5dd2-46a0-9914-0ae7706ec79d"],
 
 Cell[CellGroupData[{
 
@@ -11192,12 +11197,12 @@ Cell[BoxData[
  RowBox[{"\"\<sweeps\>\"", "<>", 
   RowBox[{"ToString", "[", "sweep", "]"}], "<>", "\"\<=sweeps\>\""}]], "Input",
  CellChangeTimes->{{3.8241225981357145`*^9, 3.824122624989936*^9}},
- CellLabel->"In[93]:=",ExpressionUUID->"b0422498-9d84-41cd-a6cc-266dc0a96b0a"],
+ CellLabel->"In[26]:=",ExpressionUUID->"b0422498-9d84-41cd-a6cc-266dc0a96b0a"],
 
 Cell[BoxData["\<\"sweeps17=sweeps\"\>"], "Output",
  CellChangeTimes->{3.824122626123237*^9, 3.8241229721184287`*^9, 
-  3.8241231168127847`*^9, 3.8241310873545666`*^9},
- CellLabel->"Out[93]=",ExpressionUUID->"869c8380-6a23-4cf5-afb5-60dd264aee0c"]
+  3.8241231168127847`*^9, 3.8241310873545666`*^9, 3.8282661007743406`*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"96964cae-7feb-4693-884e-ddc6eeb67fed"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -11209,41 +11214,41 @@ Cell[BoxData[
   "\[IndentingNewLine]", "]"}]], "Input",
  CellChangeTimes->{{3.8241222202708693`*^9, 3.8241222323534393`*^9}, {
    3.824122529543167*^9, 3.824122532390081*^9}, 3.8241226779759483`*^9},
- CellLabel->"In[94]:=",ExpressionUUID->"f5554c4b-a59a-4a04-a2dc-b322d80c1e5e"],
+ CellLabel->"In[27]:=",ExpressionUUID->"f5554c4b-a59a-4a04-a2dc-b322d80c1e5e"],
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{"\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_240\"\
-\>", ",", \
-"\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_241\"\>", 
-   ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_242\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_243\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_244\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_245\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_246\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_247\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_248\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_249\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_250\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_251\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_252\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_253\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_254\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_255\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_256\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_257\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_258\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_259\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_260\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_261\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_262\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_263\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_264\"\>\
-"}], "}"}]], "Output",
+  RowBox[{"\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_240\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_241\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_242\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_243\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_244\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_245\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_246\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_247\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_248\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_249\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_250\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_251\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_252\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_253\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_254\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_255\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_256\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_257\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_258\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_259\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_260\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_261\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_262\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_263\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_17\\\\worm3_264\"\>"}], 
+  "}"}]], "Output",
  CellChangeTimes->{{3.8241222250511265`*^9, 3.8241222328997717`*^9}, 
    3.824122476141676*^9, 3.8241225331750374`*^9, 3.8241226794111004`*^9, 
-   3.824122976053334*^9, 3.8241231181435223`*^9, 3.824131089757271*^9},
- CellLabel->"Out[94]=",ExpressionUUID->"c9dcd379-6bae-46d6-8585-b3748d8a479c"]
+   3.824122976053334*^9, 3.8241231181435223`*^9, 3.824131089757271*^9, 
+   3.8282661008239574`*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"18ca6c64-bc18-4902-baae-a82245ec50d1"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -11253,7 +11258,7 @@ Cell[BoxData[
     RowBox[{"estimateVelocityDiffusion", "/@", "sweeps"}], "]"}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.8241227833698072`*^9, 3.8241228203239665`*^9}},
- CellLabel->"In[95]:=",ExpressionUUID->"d6e7f642-2157-42e7-a858-045f3e62f620"],
+ CellLabel->"In[28]:=",ExpressionUUID->"d6e7f642-2157-42e7-a858-045f3e62f620"],
 
 Cell[CellGroupData[{
 
@@ -11261,12 +11266,12 @@ Cell[BoxData[
  RowBox[{"\"\<ds\>\"", "<>", 
   RowBox[{"ToString", "[", "sweep", "]"}], "<>", "\"\<=ds\>\""}]], "Input",
  CellChangeTimes->{{3.824122827356073*^9, 3.8241228468470883`*^9}},
- CellLabel->"In[96]:=",ExpressionUUID->"446e46c5-9193-4279-a283-8e5e370953b0"],
+ CellLabel->"In[29]:=",ExpressionUUID->"446e46c5-9193-4279-a283-8e5e370953b0"],
 
 Cell[BoxData["\<\"ds17=ds\"\>"], "Output",
  CellChangeTimes->{3.824122847597725*^9, 3.8241231394919157`*^9, 
-  3.8241310979533644`*^9},
- CellLabel->"Out[96]=",ExpressionUUID->"1508492e-1d0a-4f70-8234-c892935cb7c3"]
+  3.8241310979533644`*^9, 3.828266102683717*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"e4369e1c-e7ee-4efd-b7cc-880c8f7ae33c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -11278,7 +11283,7 @@ Cell[BoxData[
   "\[IndentingNewLine]", "]"}]], "Input",
  CellChangeTimes->{{3.824122398232543*^9, 3.8241224151018467`*^9}, 
    3.8241228565132494`*^9},
- CellLabel->"In[97]:=",ExpressionUUID->"ad8ba521-796c-4849-8ca8-f16698ebd10c"],
+ CellLabel->"In[30]:=",ExpressionUUID->"ad8ba521-796c-4849-8ca8-f16698ebd10c"],
 
 Cell[BoxData[
  TagBox[
@@ -11412,7 +11417,7 @@ Cell[BoxData[
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 25], "Meta" -> 
-     Association["ID" -> 32706402548935], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 121105423573815], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "cmstrength"} -> 1, {All, "temperature"} -> 
         1, {All, "tfinal"} -> 1, {All, "vmean"} -> 1, {All, "Dx"} -> 
@@ -11445,7 +11450,7 @@ Cell[BoxData[
      "HiddenItemsMap" -> Null, "UpdateType" -> 1], 
     TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
     TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
-    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 6, 
+    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
     TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
     DynamicModule[{TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
@@ -11647,6 +11652,391 @@ Cell[BoxData[
               ImageSize -> {{1, Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
              GrayLevel[0.95], Alignment -> {Left, Baseline}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.1"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.1"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.000156504"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00502622"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00552954"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00527788"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.1"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.000188777"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00530404"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00580448"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00555426"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.3"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.1"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.000277936"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.0060392"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00629977"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00616948"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.4"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.1"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.000412058"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00736087"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00718301"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00727194"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.5"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.1"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.000924614"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.0120294"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.00888474"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.0104571"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
             Item[
              Pane[
               Annotation[
@@ -12803,391 +13193,6 @@ Cell[BoxData[
               ImageMargins -> {{5, 3}, {4, 5}}], 
              ItemSize -> {Full, Automatic}]}, {
             Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.1"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.5"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.00995775"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0877431"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0934816"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0906123"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.5"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0201692"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0952979"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0944915"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0948947"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.3"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.5"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0310813"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.102486"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0849341"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0937098"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.4"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.5"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0423658"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.102464"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0935185"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0979911"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.5"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.5"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0554795"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.127673"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0811378"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.104405"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
              Deploy[
               Pane[
                Row[{
@@ -13290,7 +13295,7 @@ Cell[BoxData[
                     None], " ", 
                     Style[
                     Mouseover[
-                    Row[{"rows ", 6, "\[Dash]", 25, " of ", 
+                    Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
                     25, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
@@ -13298,7 +13303,7 @@ Cell[BoxData[
                     RGBColor[
                     0.5098039215686274, 0.5098039215686274, 
                     0.5098039215686274]}], 
-                    Row[{"rows ", 6, "\[Dash]", 25, " of ", 
+                    Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
                     25, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
@@ -13769,13 +13774,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{525., {277., 283.}},
+      ImageSizeCache->{464., {219., 222.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{525., {277., 283.}}],
+     ImageSizeCache->{464., {219., 222.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -13790,8 +13795,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.8241224183961086`*^9, 3.824122858150097*^9, 
-  3.824123142740433*^9, 3.8241310998701916`*^9},
- CellLabel->"Out[97]=",ExpressionUUID->"6e6d5755-83c4-414f-8e60-cb209b497ec8"]
+  3.824123142740433*^9, 3.8241310998701916`*^9, 3.8282661028487387`*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"0c758f09-9cbd-4d8b-85d1-d74b6da2aec8"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -13804,7 +13809,7 @@ Cell[BoxData[
   "\[RightDoubleBracket]"}]], "Input",
  CellChangeTimes->{{3.824107213058556*^9, 3.824107258667805*^9}, {
   3.824131141061303*^9, 3.82413114152559*^9}},
- CellLabel->"In[98]:=",ExpressionUUID->"5dee14a4-7704-4ed0-8402-9f4891224fc1"],
+ CellLabel->"In[31]:=",ExpressionUUID->"5dee14a4-7704-4ed0-8402-9f4891224fc1"],
 
 Cell[BoxData[
  TagBox[
@@ -13850,7 +13855,7 @@ Cell[BoxData[
        TypeSystem`Struct[{"cmstrength", "vmean"}, {
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 25], "Meta" -> 
-     Association["ID" -> 32710697516278], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 121109718541111], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "cmstrength"} -> 1, {All, "vmean"} -> 1], 
        TypeSystem`PackageScope`Limited[
@@ -14952,13 +14957,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{200., {277., 283.}},
+      ImageSizeCache->{160., {219., 222.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{200., {277., 283.}}],
+     ImageSizeCache->{160., {219., 222.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -14973,8 +14978,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{{3.8241072364184756`*^9, 3.8241072592582846`*^9}, 
-   3.8241224399450636`*^9, 3.8241228682166033`*^9, 3.8241311424249096`*^9},
- CellLabel->"Out[98]=",ExpressionUUID->"55d748d2-2d25-4703-bbf8-9f0293a7adf4"]
+   3.8241224399450636`*^9, 3.8241228682166033`*^9, 3.8241311424249096`*^9, 
+   3.8282661033818073`*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"0b6d3375-8a6a-4a14-b4e1-bbb26b3ebe55"]
 }, Open  ]]
 }, Open  ]],
 
@@ -14997,13 +15003,14 @@ Cell[BoxData[
   3.8241229599900274`*^9}, {3.8241231075901804`*^9, 3.8241231080861845`*^9}, {
   3.824124034119693*^9, 3.8241240346698313`*^9}, {3.8241312179960985`*^9, 
   3.824131218577098*^9}},
- CellLabel->"In[99]:=",ExpressionUUID->"7b1a5f0c-e4b1-4236-95da-2ef99ce6f7d3"],
+ CellLabel->"In[32]:=",ExpressionUUID->"7b1a5f0c-e4b1-4236-95da-2ef99ce6f7d3"],
 
 Cell[BoxData["18"], "Output",
  CellChangeTimes->{3.8239514809391336`*^9, 3.823954725034125*^9, 
   3.8241061599261303`*^9, 3.8241221455696464`*^9, 3.824122960553774*^9, 
-  3.8241231086936955`*^9, 3.8241240364074726`*^9, 3.824139775817261*^9},
- CellLabel->"Out[99]=",ExpressionUUID->"9c5bb1a8-8e66-497b-8b6d-9b9997b4b851"]
+  3.8241231086936955`*^9, 3.8241240364074726`*^9, 3.824139775817261*^9, 
+  3.8282661037227993`*^9},
+ CellLabel->"Out[32]=",ExpressionUUID->"84a9d866-c65b-4eb1-a271-25e3403c5151"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -15016,16 +15023,13 @@ Cell[BoxData[
      RowBox[{"modelName", "<>", "\"\<_sweep_\>\"", "<>", 
       RowBox[{"ToString", "[", "sweep", "]"}]}]}], "}"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8239514838958044`*^9, 3.823951528112116*^9}},
- CellLabel->
-  "In[100]:=",ExpressionUUID->"c6d754cc-4f47-48f0-8532-b25f809e9f42"],
+ CellLabel->"In[33]:=",ExpressionUUID->"c6d754cc-4f47-48f0-8532-b25f809e9f42"],
 
-Cell[BoxData["\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\"\>"], \
-"Output",
+Cell[BoxData["\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\"\>"], "Output",
  CellChangeTimes->{3.8239515285431757`*^9, 3.823954726056017*^9, 
   3.8241061638645744`*^9, 3.8241229647459755`*^9, 3.8241231122067757`*^9, 
-  3.8241310825366583`*^9, 3.8241397778349805`*^9},
- CellLabel->
-  "Out[100]=",ExpressionUUID->"2a93f2c4-211b-4331-9585-38ca8f029ee1"]
+  3.8241310825366583`*^9, 3.8241397778349805`*^9, 3.8282661037699103`*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"6c9196ba-0e02-49f5-9d2e-bf64baca0b6b"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -15037,8 +15041,7 @@ Cell[BoxData[
   ";"}]], "Input",
  CellChangeTimes->{{3.824122576619517*^9, 3.8241225879639573`*^9}, {
   3.824122640964473*^9, 3.824122669216467*^9}},
- CellLabel->
-  "In[101]:=",ExpressionUUID->"c0f6a205-a539-409a-86be-7d890d18d89e"],
+ CellLabel->"In[34]:=",ExpressionUUID->"c0f6a205-a539-409a-86be-7d890d18d89e"],
 
 Cell[CellGroupData[{
 
@@ -15046,14 +15049,13 @@ Cell[BoxData[
  RowBox[{"\"\<sweeps\>\"", "<>", 
   RowBox[{"ToString", "[", "sweep", "]"}], "<>", "\"\<=sweeps\>\""}]], "Input",
  CellChangeTimes->{{3.8241225981357145`*^9, 3.824122624989936*^9}},
- CellLabel->
-  "In[102]:=",ExpressionUUID->"f1b1770a-aae1-4e02-909b-fd2bc059cf32"],
+ CellLabel->"In[35]:=",ExpressionUUID->"f1b1770a-aae1-4e02-909b-fd2bc059cf32"],
 
 Cell[BoxData["\<\"sweeps18=sweeps\"\>"], "Output",
  CellChangeTimes->{3.824122626123237*^9, 3.8241229721184287`*^9, 
-  3.8241231168127847`*^9, 3.8241310873545666`*^9, 3.8241397819787784`*^9},
- CellLabel->
-  "Out[102]=",ExpressionUUID->"043f747b-34bf-42c8-b02c-d85b7ca484e0"]
+  3.8241231168127847`*^9, 3.8241310873545666`*^9, 3.8241397819787784`*^9, 
+  3.8282661038430977`*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"6c93feba-0c12-41f1-9756-e2cdfcb6905d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -15065,44 +15067,41 @@ Cell[BoxData[
   "\[IndentingNewLine]", "]"}]], "Input",
  CellChangeTimes->{{3.8241222202708693`*^9, 3.8241222323534393`*^9}, {
    3.824122529543167*^9, 3.824122532390081*^9}, 3.8241226779759483`*^9},
- CellLabel->
-  "In[103]:=",ExpressionUUID->"4edc6ba4-daac-44f0-a8da-4049445db8b3"],
+ CellLabel->"In[36]:=",ExpressionUUID->"4edc6ba4-daac-44f0-a8da-4049445db8b3"],
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{"\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_265\"\
-\>", ",", \
-"\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_266\"\>", 
-   ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_267\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_268\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_269\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_270\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_271\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_272\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_273\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_274\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_275\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_276\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_277\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_278\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_279\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_280\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_281\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_282\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_283\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_284\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_285\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_286\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_287\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_288\"\>\
-", ",", "\<\"D:\\\\WSL\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_289\"\>\
-"}], "}"}]], "Output",
+  RowBox[{"\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_265\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_266\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_267\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_268\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_269\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_270\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_271\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_272\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_273\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_274\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_275\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_276\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_277\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_278\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_279\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_280\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_281\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_282\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_283\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_284\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_285\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_286\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_287\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_288\"\>", 
+   ",", "\<\"H:\\\\morpheus\\\\worm3\\\\worm3_sweep_18\\\\worm3_289\"\>"}], 
+  "}"}]], "Output",
  CellChangeTimes->{{3.8241222250511265`*^9, 3.8241222328997717`*^9}, 
    3.824122476141676*^9, 3.8241225331750374`*^9, 3.8241226794111004`*^9, 
    3.824122976053334*^9, 3.8241231181435223`*^9, 3.824131089757271*^9, 
-   3.8241397838702135`*^9},
- CellLabel->
-  "Out[103]=",ExpressionUUID->"19c47d65-08aa-4a0a-9539-b2c7bd437ade"]
+   3.8241397838702135`*^9, 3.828266103902136*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"1e62b497-32b3-4a07-bc20-ebf9a937e26b"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -15112,8 +15111,7 @@ Cell[BoxData[
     RowBox[{"estimateVelocityDiffusion", "/@", "sweeps"}], "]"}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.8241227833698072`*^9, 3.8241228203239665`*^9}},
- CellLabel->
-  "In[104]:=",ExpressionUUID->"e812b52c-b202-4d87-be30-fd02f28a687e"],
+ CellLabel->"In[37]:=",ExpressionUUID->"e812b52c-b202-4d87-be30-fd02f28a687e"],
 
 Cell[CellGroupData[{
 
@@ -15122,13 +15120,11 @@ Cell[BoxData[
   RowBox[{"ToString", "[", "sweep", "]"}], "<>", "\"\<=ds\>\""}]], "Input",
  CellChangeTimes->{{3.824122827356073*^9, 3.8241228468470883`*^9}, {
   3.824139795430189*^9, 3.82413979969305*^9}},
- CellLabel->
-  "In[105]:=",ExpressionUUID->"ccf791b6-042b-4249-b722-1a970a8e2766"],
+ CellLabel->"In[38]:=",ExpressionUUID->"ccf791b6-042b-4249-b722-1a970a8e2766"],
 
 Cell[BoxData["\<\"ds18=ds\"\>"], "Output",
- CellChangeTimes->{3.8241398005052075`*^9},
- CellLabel->
-  "Out[105]=",ExpressionUUID->"894cb9c0-03b4-4303-baca-4ec36faa0bb1"]
+ CellChangeTimes->{3.8241398005052075`*^9, 3.828266105894934*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"d04c5fdc-18f6-482c-ac3d-799617b36ad4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -15140,8 +15136,7 @@ Cell[BoxData[
   "\[IndentingNewLine]", "]"}]], "Input",
  CellChangeTimes->{{3.824122398232543*^9, 3.8241224151018467`*^9}, 
    3.8241228565132494`*^9},
- CellLabel->
-  "In[106]:=",ExpressionUUID->"33067f69-7044-4e46-b758-19747641bd1b"],
+ CellLabel->"In[39]:=",ExpressionUUID->"33067f69-7044-4e46-b758-19747641bd1b"],
 
 Cell[BoxData[
  TagBox[
@@ -15275,7 +15270,7 @@ Cell[BoxData[
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[Real]}], 25], "Meta" -> 
-     Association["ID" -> 33788734316226], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 122187755332410], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "cmstrength"} -> 1, {All, "temperature"} -> 
         1, {All, "tfinal"} -> 1, {All, "vmean"} -> 1, {All, "Dx"} -> 
@@ -15308,7 +15303,7 @@ Cell[BoxData[
      "HiddenItemsMap" -> Null, "UpdateType" -> 1], 
     TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
     TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
-    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 6, 
+    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
     TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
     DynamicModule[{TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
@@ -15510,6 +15505,391 @@ Cell[BoxData[
               ImageSize -> {{1, Full}, Automatic}, 
               ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
              GrayLevel[0.95], Alignment -> {Left, Baseline}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.126427"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.132125"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.207062"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.169593"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{1, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["4"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.191567"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.188938"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.189556"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.189247"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{2, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["6"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.219198"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.142244"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.164868"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.153556"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{3, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["8"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.232657"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.137085"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.169462"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.153273"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{4, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["cmstrength"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["2"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["temperature"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["10000"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["tfinal"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{34, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.236368"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["vmean"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.133814"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Dx"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.161836"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Dy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}], 
+            Item[
+             Pane[
+              Annotation[
+               RawBoxes["0.147825"], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{5, 
+                 Key["Dxy"]}, "Item", False], "Mouse"], 
+              ImageSize -> {{60, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], 
+             ItemSize -> {Full, Automatic}]}, {
             Item[
              Pane[
               Annotation[
@@ -16666,391 +17046,6 @@ Cell[BoxData[
               ImageMargins -> {{5, 3}, {4, 5}}], 
              ItemSize -> {Full, Automatic}]}, {
             Item[
-             Pane[
-              Annotation[
-               RawBoxes["2"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0422709"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.190592"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.172708"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.18165"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{21, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["4"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.0799613"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.20021"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.174355"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.187282"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{22, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["6"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.109569"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.223199"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.183035"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.203117"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{23, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["8"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.136069"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.209876"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.201663"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.20577"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{24, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["cmstrength"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["temperature"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["10000"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["tfinal"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{34, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.155066"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["vmean"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.162009"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Dx"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.20118"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Dy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}], 
-            Item[
-             Pane[
-              Annotation[
-               RawBoxes["0.181595"], 
-               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-                TypeSystem`NestedGrid`PackagePrivate`localHold[
-                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{25, 
-                 Key["Dxy"]}, "Item", False], "Mouse"], 
-              ImageSize -> {{60, Full}, Automatic}, 
-              ImageMargins -> {{5, 3}, {4, 5}}], 
-             ItemSize -> {Full, Automatic}]}, {
-            Item[
              Deploy[
               Pane[
                Row[{
@@ -17153,7 +17148,7 @@ Cell[BoxData[
                     None], " ", 
                     Style[
                     Mouseover[
-                    Row[{"rows ", 6, "\[Dash]", 25, " of ", 
+                    Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
                     25, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
@@ -17161,7 +17156,7 @@ Cell[BoxData[
                     RGBColor[
                     0.5098039215686274, 0.5098039215686274, 
                     0.5098039215686274]}], 
-                    Row[{"rows ", 6, "\[Dash]", 25, " of ", 
+                    Row[{"rows ", 1, "\[Dash]", 20, " of ", 
                     Style[
                     25, FontColor -> GrayLevel[0], FontWeight -> "Medium"]}, 
                     BaseStyle -> {
@@ -17632,13 +17627,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{503., {277., 283.}},
+      ImageSizeCache->{449., {219., 222.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{503., {277., 283.}}],
+     ImageSizeCache->{449., {219., 222.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -17653,9 +17648,9 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.8241224183961086`*^9, 3.824122858150097*^9, 
-  3.824123142740433*^9, 3.8241310998701916`*^9, 3.824139802945533*^9},
- CellLabel->
-  "Out[106]=",ExpressionUUID->"e38c1d38-d70a-476b-b6c8-a4b7e8e263a0"]
+  3.824123142740433*^9, 3.8241310998701916`*^9, 3.824139802945533*^9, 
+  3.8282661060778933`*^9},
+ CellLabel->"Out[39]=",ExpressionUUID->"246ab22a-4f05-4648-a69a-04d2c76abeeb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -17669,8 +17664,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.824107213058556*^9, 3.824107258667805*^9}, {
   3.824131141061303*^9, 3.82413114152559*^9}, {3.824131233165588*^9, 
   3.824131233600587*^9}},
- CellLabel->
-  "In[107]:=",ExpressionUUID->"a0975baa-fc36-488d-ab21-ccf1fafd1c99"],
+ CellLabel->"In[40]:=",ExpressionUUID->"a0975baa-fc36-488d-ab21-ccf1fafd1c99"],
 
 Cell[BoxData[
  TagBox[
@@ -17716,7 +17710,7 @@ Cell[BoxData[
        TypeSystem`Struct[{"cmstrength", "vmean"}, {
          TypeSystem`Atom[Integer], 
          TypeSystem`Atom[Real]}], 25], "Meta" -> 
-     Association["ID" -> 33793029283541], "RowTarget" -> 20, "ColumnTarget" -> 
+     Association["ID" -> 122192050299707], "RowTarget" -> 20, "ColumnTarget" -> 
      10, "Shape" -> TypeSystem`PackageScope`HeaderShape[
        Association[{All, "cmstrength"} -> 1, {All, "vmean"} -> 1], 
        TypeSystem`PackageScope`Limited[
@@ -18819,13 +18813,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{195., {277., 283.}},
+      ImageSizeCache->{150., {219., 222.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{195., {277., 283.}}],
+     ImageSizeCache->{150., {219., 222.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>
@@ -18841,9 +18835,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Selectable->False]], "Output",
  CellChangeTimes->{{3.8241072364184756`*^9, 3.8241072592582846`*^9}, 
    3.8241224399450636`*^9, 3.8241228682166033`*^9, 3.8241311424249096`*^9, 
-   3.8241398131239705`*^9},
- CellLabel->
-  "Out[107]=",ExpressionUUID->"6e875dfb-1223-48be-b918-b6b98ec191c2"]
+   3.8241398131239705`*^9, 3.828266106610815*^9},
+ CellLabel->"Out[40]=",ExpressionUUID->"17acd23b-dc42-4b95-af34-5401648ae6c5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -18856,8 +18849,7 @@ Cell[BoxData[
      RowBox[{"\"\<cmstrength\>\"", ",", "\"\<vmean\>\""}], "}"}]}], 
    "\[RightDoubleBracket]"}], "\[IndentingNewLine]", "]"}]], "Input",
  CellChangeTimes->{{3.8241398241208677`*^9, 3.8241398285560884`*^9}},
- CellLabel->
-  "In[108]:=",ExpressionUUID->"fa005670-ac45-4d3a-b7b1-18d48bcbda4c"],
+ CellLabel->"In[41]:=",ExpressionUUID->"fa005670-ac45-4d3a-b7b1-18d48bcbda4c"],
 
 Cell[BoxData[
  GraphicsBox[{{}, 
@@ -18901,9 +18893,8 @@ EDxR+fP4drh53773n/H2PgA3b5LgIb/Lqw/DzVP+LaWuZnAMbl55cNKt9iVL
      Scaled[0.02], 
      Scaled[0.08090169943749476]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.824139828932088*^9},
- CellLabel->
-  "Out[108]=",ExpressionUUID->"1700deb9-f66d-4dd5-af14-71fe249c58f1"]
+ CellChangeTimes->{3.824139828932088*^9, 3.828266107072879*^9},
+ CellLabel->"Out[41]=",ExpressionUUID->"6658a674-b69e-4194-8315-c0e2ecd8cbad"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -18926,154 +18917,154 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 288, 6, 28, "Input",ExpressionUUID->"869f2fd4-21e9-4cc7-baae-b3af9734f8f9"],
-Cell[871, 30, 302, 5, 32, "Output",ExpressionUUID->"7639015d-12ff-4bd4-899d-e23d5bea4e80"]
+Cell[871, 30, 323, 6, 32, "Output",ExpressionUUID->"e7a6f764-d6b6-42cd-abfe-3d6fc1804a22"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1210, 40, 150, 3, 67, "Section",ExpressionUUID->"2e1dfa22-7709-405c-8530-3da1dd8061cd"],
-Cell[1363, 45, 221, 3, 28, "Input",ExpressionUUID->"d5ef5f92-ae04-4a42-8638-71eb75f1ab81"],
+Cell[1231, 41, 150, 3, 67, "Section",ExpressionUUID->"2e1dfa22-7709-405c-8530-3da1dd8061cd"],
+Cell[1384, 46, 221, 3, 28, "Input",ExpressionUUID->"d5ef5f92-ae04-4a42-8638-71eb75f1ab81"],
 Cell[CellGroupData[{
-Cell[1609, 52, 206, 3, 28, "Input",ExpressionUUID->"88c97e69-25f5-4e15-a3fc-777aae99dd72"],
-Cell[1818, 57, 1097, 15, 32, "Output",ExpressionUUID->"aab21c72-bd7b-4510-a7e7-49964cd519a7"]
+Cell[1630, 53, 206, 3, 28, "Input",ExpressionUUID->"88c97e69-25f5-4e15-a3fc-777aae99dd72"],
+Cell[1839, 58, 1119, 15, 32, "Output",ExpressionUUID->"f06fa766-185a-439b-b803-43743770ac7a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2952, 77, 278, 5, 28, "Input",ExpressionUUID->"7f52fcb0-c287-4ccc-b315-ac867cf150f1"],
-Cell[3233, 84, 2041, 27, 32, "Output",ExpressionUUID->"e987e9d0-e5fb-425e-8b2f-1ca14b7eaf4f"]
+Cell[2995, 78, 278, 5, 28, "Input",ExpressionUUID->"7f52fcb0-c287-4ccc-b315-ac867cf150f1"],
+Cell[3276, 85, 2060, 28, 32, "Output",ExpressionUUID->"c43de431-32b0-4c4c-845c-d4dbf7bd1736"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5311, 116, 291, 6, 28, "Input",ExpressionUUID->"6e450dcc-5545-4409-bf1b-3f4836d730f6"],
-Cell[5605, 124, 216, 3, 32, "Output",ExpressionUUID->"ec20bc1e-23b9-4f10-8fa2-ae3308254988"]
+Cell[5373, 118, 291, 6, 28, "Input",ExpressionUUID->"6e450dcc-5545-4409-bf1b-3f4836d730f6"],
+Cell[5667, 126, 240, 3, 32, "Output",ExpressionUUID->"c151f4aa-93fb-4872-bce1-57a7765c2a2d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5858, 132, 218, 3, 28, "Input",ExpressionUUID->"ccb81f1f-4c36-4118-8d86-27a06c4e4b68"],
-Cell[6079, 137, 189, 2, 32, "Output",ExpressionUUID->"4e045612-39ba-40aa-8e4d-85bf64bea559"]
+Cell[5944, 134, 218, 3, 28, "Input",ExpressionUUID->"ccb81f1f-4c36-4118-8d86-27a06c4e4b68"],
+Cell[6165, 139, 214, 3, 32, "Output",ExpressionUUID->"b7148b7a-adc4-4105-9175-b01304f9b2bf"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6317, 145, 206, 4, 67, "Section",ExpressionUUID->"3e80ef11-61da-4140-b4a0-bbccc48bad59"],
+Cell[6428, 148, 206, 4, 67, "Section",ExpressionUUID->"3e80ef11-61da-4140-b4a0-bbccc48bad59"],
 Cell[CellGroupData[{
-Cell[6548, 153, 254, 4, 28, "Input",ExpressionUUID->"47135292-3cab-4f94-8e6c-17d6f0be4de2"],
-Cell[6805, 159, 225, 3, 32, "Output",ExpressionUUID->"be440e87-f3da-4ae5-a0e1-7f65cb0869fd"]
+Cell[6659, 156, 253, 4, 28, "Input",ExpressionUUID->"47135292-3cab-4f94-8e6c-17d6f0be4de2"],
+Cell[6915, 162, 248, 3, 32, "Output",ExpressionUUID->"4c50ea3a-1e86-41fb-836c-97fa91155535"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7067, 167, 398, 8, 68, "Input",ExpressionUUID->"3def9be0-2aaa-476b-ac2e-f193658c026a"],
-Cell[7468, 177, 256, 4, 32, "Output",ExpressionUUID->"9019eea7-a7da-46bb-bd0b-c8f57e61a8a2"]
+Cell[7200, 170, 398, 8, 68, "Input",ExpressionUUID->"3def9be0-2aaa-476b-ac2e-f193658c026a"],
+Cell[7601, 180, 271, 3, 32, "Output",ExpressionUUID->"2575ce3f-3ec2-4fce-9600-14af68da9a6f"]
 }, Open  ]],
-Cell[7739, 184, 383, 9, 28, "Input",ExpressionUUID->"2b5ac9c2-b640-41bc-8316-33f0de44dad3"],
+Cell[7887, 186, 382, 9, 28, "Input",ExpressionUUID->"2b5ac9c2-b640-41bc-8316-33f0de44dad3"],
 Cell[CellGroupData[{
-Cell[8147, 197, 274, 4, 28, "Input",ExpressionUUID->"1d9180fd-7205-4b6e-a2ce-662463f3d6e4"],
-Cell[8424, 203, 171, 2, 32, "Output",ExpressionUUID->"71a5a20d-e3c4-499b-b096-f4632e306862"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[8632, 210, 439, 7, 68, "Input",ExpressionUUID->"2d7520ac-4103-4dc9-83ce-91a45efd6559"],
-Cell[9074, 219, 2280, 31, 498, "Output",ExpressionUUID->"87c4f809-ca15-4367-b78f-d2411ab1ca3c"]
+Cell[8294, 199, 274, 4, 28, "Input",ExpressionUUID->"1d9180fd-7205-4b6e-a2ce-662463f3d6e4"],
+Cell[8571, 205, 195, 2, 32, "Output",ExpressionUUID->"acc6cf86-28e4-436c-a090-2b24bd6e6695"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11391, 255, 912, 19, 107, "Input",ExpressionUUID->"4ce06e38-08ea-49d2-b449-f8bfe64da270"],
-Cell[12306, 276, 148120, 2742, 755, "Output",ExpressionUUID->"7d65743d-1d15-48f7-978a-4b1b9d775501"]
+Cell[8803, 212, 439, 7, 68, "Input",ExpressionUUID->"2d7520ac-4103-4dc9-83ce-91a45efd6559"],
+Cell[9245, 221, 2176, 31, 498, "Output",ExpressionUUID->"fcc442cd-5c1d-41da-bd03-267cf2c088fe"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[160463, 3023, 342, 6, 28, "Input",ExpressionUUID->"ed6acd98-04df-43bc-b5bf-87356bb84974"],
-Cell[160808, 3031, 256, 3, 32, "Output",ExpressionUUID->"97b2b1d2-c370-4794-93af-62a1b4c081a3"]
+Cell[11458, 257, 912, 19, 107, "Input",ExpressionUUID->"4ce06e38-08ea-49d2-b449-f8bfe64da270"],
+Cell[12373, 278, 148144, 2742, 755, "Output",ExpressionUUID->"7622737c-9aba-4d74-8fcd-136b57988a70"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[161101, 3039, 328, 6, 28, "Input",ExpressionUUID->"26b2050f-d886-46f1-ac84-3c7fd5ed4883"],
-Cell[161432, 3047, 23945, 426, 247, "Output",ExpressionUUID->"513fc16b-c942-4ba9-b846-97c7e6ea3eee"]
+Cell[160554, 3025, 342, 6, 28, "Input",ExpressionUUID->"ed6acd98-04df-43bc-b5bf-87356bb84974"],
+Cell[160899, 3033, 282, 4, 32, "Output",ExpressionUUID->"ac1d2300-c516-4aea-b641-c0ab32c46fc7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[185414, 3478, 543, 10, 28, "Input",ExpressionUUID->"baa6c5f5-2007-45db-a244-1025cedd9d39"],
-Cell[185960, 3490, 154068, 3073, 579, "Output",ExpressionUUID->"f158129e-7a53-4167-91cf-c3f492b50e6f"]
+Cell[161218, 3042, 328, 6, 28, "Input",ExpressionUUID->"26b2050f-d886-46f1-ac84-3c7fd5ed4883"],
+Cell[161549, 3050, 23967, 427, 247, "Output",ExpressionUUID->"a4108961-47bd-445d-ab6a-6dd70985281a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[340065, 6568, 446, 10, 28, "Input",ExpressionUUID->"645f5a77-c445-4a72-bbb9-ad5eb60556e5"],
-Cell[340514, 6580, 36809, 674, 247, "Output",ExpressionUUID->"1daa4f75-133a-4027-b41d-02b7f7fbea34"]
-}, Open  ]],
-Cell[377338, 7257, 4485, 105, 648, "Input",ExpressionUUID->"2875346e-abfc-4683-ae80-1c1ea99dac33"],
-Cell[CellGroupData[{
-Cell[381848, 7366, 584, 9, 28, "Input",ExpressionUUID->"7c19041d-5070-42c6-83cb-6226b3e1bc76"],
-Cell[382435, 7377, 1296, 21, 72, "Output",ExpressionUUID->"2d468607-1a20-4302-b1a0-2cedd604420f"]
-}, Open  ]],
-Cell[383746, 7401, 310, 7, 28, "Input",ExpressionUUID->"e1f99916-d349-4b55-84f7-cc0cc0549a43"],
-Cell[CellGroupData[{
-Cell[384081, 7412, 266, 4, 28, "Input",ExpressionUUID->"ebd2acd4-db40-4d00-9e99-af156bfbd7f5"],
-Cell[384350, 7418, 163, 2, 32, "Output",ExpressionUUID->"fae09de3-684d-49c4-8fea-4e4618314489"]
+Cell[185553, 3482, 543, 10, 28, "Input",ExpressionUUID->"baa6c5f5-2007-45db-a244-1025cedd9d39"],
+Cell[186099, 3494, 154092, 3073, 579, "Output",ExpressionUUID->"6220936e-d79a-49b3-bdcb-9044f42e3bde"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[384550, 7425, 383, 7, 68, "Input",ExpressionUUID->"e536c144-8eb1-403a-a311-0697dce83f38"],
-Cell[384936, 7434, 124799, 2510, 579, "Output",ExpressionUUID->"965a551a-5680-42c1-8681-e6a967744cb1"]
+Cell[340228, 6572, 446, 10, 28, "Input",ExpressionUUID->"645f5a77-c445-4a72-bbb9-ad5eb60556e5"],
+Cell[340677, 6584, 36833, 675, 247, "Output",ExpressionUUID->"e87edb01-6218-4e4d-acba-6ed181c775bc"]
+}, Open  ]],
+Cell[377525, 7262, 4485, 105, 648, "Input",ExpressionUUID->"2875346e-abfc-4683-ae80-1c1ea99dac33"],
+Cell[CellGroupData[{
+Cell[382035, 7371, 584, 9, 28, "Input",ExpressionUUID->"7c19041d-5070-42c6-83cb-6226b3e1bc76"],
+Cell[382622, 7382, 1320, 21, 72, "Output",ExpressionUUID->"8971c166-4a93-4bae-89d4-8f5af0f69d79"]
+}, Open  ]],
+Cell[383957, 7406, 310, 7, 28, "Input",ExpressionUUID->"e1f99916-d349-4b55-84f7-cc0cc0549a43"],
+Cell[CellGroupData[{
+Cell[384292, 7417, 266, 4, 28, "Input",ExpressionUUID->"ebd2acd4-db40-4d00-9e99-af156bfbd7f5"],
+Cell[384561, 7423, 187, 2, 32, "Output",ExpressionUUID->"b217f512-1d40-4a46-87ac-8a7e2f3ef911"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[509772, 9949, 347, 7, 28, "Input",ExpressionUUID->"0a71938d-b662-4c92-9867-fe480420b77f"],
-Cell[510122, 9958, 61174, 1168, 579, "Output",ExpressionUUID->"d02212de-33f8-44a5-bd7d-7fce44f5ef81"]
+Cell[384785, 7430, 383, 7, 68, "Input",ExpressionUUID->"e536c144-8eb1-403a-a311-0697dce83f38"],
+Cell[385171, 7439, 124827, 2511, 579, "Output",ExpressionUUID->"0d4e75f5-bfee-4560-9de6-2c5323dad358"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[510035, 9955, 347, 7, 28, "Input",ExpressionUUID->"0a71938d-b662-4c92-9867-fe480420b77f"],
+Cell[510385, 9964, 61199, 1168, 579, "Output",ExpressionUUID->"ba099650-96a4-4009-b3c4-5ca2b7b104c9"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[571345, 11132, 358, 6, 67, "Section",ExpressionUUID->"8ca85e6a-ba18-4e25-a1fa-973745501081"],
+Cell[571633, 11138, 358, 6, 67, "Section",ExpressionUUID->"8ca85e6a-ba18-4e25-a1fa-973745501081"],
 Cell[CellGroupData[{
-Cell[571728, 11142, 408, 6, 28, "Input",ExpressionUUID->"09bd79a4-4fcb-4d5b-b112-973f22375913"],
-Cell[572139, 11150, 298, 4, 32, "Output",ExpressionUUID->"f4dac4e0-fc16-440c-8df8-77c65f7486b3"]
+Cell[572016, 11148, 408, 6, 28, "Input",ExpressionUUID->"09bd79a4-4fcb-4d5b-b112-973f22375913"],
+Cell[572427, 11156, 322, 4, 32, "Output",ExpressionUUID->"23367323-5bb8-40eb-9e04-b7216f69640c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[572474, 11159, 399, 8, 68, "Input",ExpressionUUID->"65fe48fd-f13c-4071-8b66-51bce6f4e3ad"],
-Cell[572876, 11169, 332, 5, 32, "Output",ExpressionUUID->"b57820f6-ad78-47a8-9a6f-60a76c4d0baf"]
+Cell[572786, 11165, 399, 8, 68, "Input",ExpressionUUID->"65fe48fd-f13c-4071-8b66-51bce6f4e3ad"],
+Cell[573188, 11175, 345, 4, 32, "Output",ExpressionUUID->"e1542488-d9c1-4d95-919e-a29270b8c69c"]
 }, Open  ]],
-Cell[573223, 11177, 383, 9, 28, "Input",ExpressionUUID->"a77e0880-5dd2-46a0-9914-0ae7706ec79d"],
+Cell[573548, 11182, 383, 9, 28, "Input",ExpressionUUID->"a77e0880-5dd2-46a0-9914-0ae7706ec79d"],
 Cell[CellGroupData[{
-Cell[573631, 11190, 274, 4, 28, "Input",ExpressionUUID->"b0422498-9d84-41cd-a6cc-266dc0a96b0a"],
-Cell[573908, 11196, 246, 3, 32, "Output",ExpressionUUID->"869c8380-6a23-4cf5-afb5-60dd264aee0c"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[574191, 11204, 439, 7, 68, "Input",ExpressionUUID->"f5554c4b-a59a-4a04-a2dc-b322d80c1e5e"],
-Cell[574633, 11213, 2352, 32, 498, "Output",ExpressionUUID->"c9dcd379-6bae-46d6-8585-b3748d8a479c"]
-}, Open  ]],
-Cell[577000, 11248, 310, 7, 28, "Input",ExpressionUUID->"d6e7f642-2157-42e7-a858-045f3e62f620"],
-Cell[CellGroupData[{
-Cell[577335, 11259, 266, 4, 28, "Input",ExpressionUUID->"446e46c5-9193-4279-a283-8e5e370953b0"],
-Cell[577604, 11265, 214, 3, 32, "Output",ExpressionUUID->"1508492e-1d0a-4f70-8234-c892935cb7c3"]
+Cell[573956, 11195, 274, 4, 28, "Input",ExpressionUUID->"b0422498-9d84-41cd-a6cc-266dc0a96b0a"],
+Cell[574233, 11201, 270, 3, 32, "Output",ExpressionUUID->"96964cae-7feb-4693-884e-ddc6eeb67fed"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[577855, 11273, 383, 7, 68, "Input",ExpressionUUID->"ad8ba521-796c-4849-8ca8-f16698ebd10c"],
-Cell[578241, 11282, 125030, 2511, 579, "Output",ExpressionUUID->"6e6d5755-83c4-414f-8e60-cb209b497ec8"]
+Cell[574540, 11209, 439, 7, 68, "Input",ExpressionUUID->"f5554c4b-a59a-4a04-a2dc-b322d80c1e5e"],
+Cell[574982, 11218, 2250, 32, 498, "Output",ExpressionUUID->"18ca6c64-bc18-4902-baae-a82245ec50d1"]
+}, Open  ]],
+Cell[577247, 11253, 310, 7, 28, "Input",ExpressionUUID->"d6e7f642-2157-42e7-a858-045f3e62f620"],
+Cell[CellGroupData[{
+Cell[577582, 11264, 266, 4, 28, "Input",ExpressionUUID->"446e46c5-9193-4279-a283-8e5e370953b0"],
+Cell[577851, 11270, 236, 3, 32, "Output",ExpressionUUID->"e4369e1c-e7ee-4efd-b7cc-880c8f7ae33c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[703308, 13798, 395, 8, 28, "Input",ExpressionUUID->"5dee14a4-7704-4ed0-8402-9f4891224fc1"],
-Cell[703706, 13808, 61282, 1168, 579, "Output",ExpressionUUID->"55d748d2-2d25-4703-bbf8-9f0293a7adf4"]
+Cell[578124, 11278, 383, 7, 68, "Input",ExpressionUUID->"ad8ba521-796c-4849-8ca8-f16698ebd10c"],
+Cell[578510, 11287, 125045, 2511, 579, "Output",ExpressionUUID->"0c758f09-9cbd-4d8b-85d1-d74b6da2aec8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[703592, 13803, 395, 8, 28, "Input",ExpressionUUID->"5dee14a4-7704-4ed0-8402-9f4891224fc1"],
+Cell[703990, 13813, 61311, 1169, 579, "Output",ExpressionUUID->"0b6d3375-8a6a-4a14-b4e1-bbb26b3ebe55"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[765037, 14982, 406, 6, 67, "Section",ExpressionUUID->"fb22b946-f139-4a38-8cdb-08520346e18f"],
+Cell[765350, 14988, 406, 6, 67, "Section",ExpressionUUID->"fb22b946-f139-4a38-8cdb-08520346e18f"],
 Cell[CellGroupData[{
-Cell[765468, 14992, 459, 7, 28, "Input",ExpressionUUID->"7b1a5f0c-e4b1-4236-95da-2ef99ce6f7d3"],
-Cell[765930, 15001, 320, 4, 32, "Output",ExpressionUUID->"9c5bb1a8-8e66-497b-8b6d-9b9997b4b851"]
+Cell[765781, 14998, 459, 7, 28, "Input",ExpressionUUID->"7b1a5f0c-e4b1-4236-95da-2ef99ce6f7d3"],
+Cell[766243, 15007, 347, 5, 32, "Output",ExpressionUUID->"84a9d866-c65b-4eb1-a271-25e3403c5151"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[766287, 15010, 403, 9, 68, "Input",ExpressionUUID->"c6d754cc-4f47-48f0-8532-b25f809e9f42"],
-Cell[766693, 15021, 360, 6, 32, "Output",ExpressionUUID->"2a93f2c4-211b-4331-9585-38ca8f029ee1"]
+Cell[766627, 15017, 399, 8, 68, "Input",ExpressionUUID->"c6d754cc-4f47-48f0-8532-b25f809e9f42"],
+Cell[767029, 15027, 371, 4, 32, "Output",ExpressionUUID->"6c9196ba-0e02-49f5-9d2e-bf64baca0b6b"]
 }, Open  ]],
-Cell[767068, 15030, 387, 10, 28, "Input",ExpressionUUID->"c0f6a205-a539-409a-86be-7d890d18d89e"],
+Cell[767415, 15034, 383, 9, 28, "Input",ExpressionUUID->"c0f6a205-a539-409a-86be-7d890d18d89e"],
 Cell[CellGroupData[{
-Cell[767480, 15044, 278, 5, 28, "Input",ExpressionUUID->"f1b1770a-aae1-4e02-909b-fd2bc059cf32"],
-Cell[767761, 15051, 274, 4, 32, "Output",ExpressionUUID->"043f747b-34bf-42c8-b02c-d85b7ca484e0"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[768072, 15060, 443, 8, 68, "Input",ExpressionUUID->"4edc6ba4-daac-44f0-a8da-4049445db8b3"],
-Cell[768518, 15070, 2384, 34, 498, "Output",ExpressionUUID->"19c47d65-08aa-4a0a-9539-b2c7bd437ade"]
-}, Open  ]],
-Cell[770917, 15107, 314, 8, 28, "Input",ExpressionUUID->"e812b52c-b202-4d87-be30-fd02f28a687e"],
-Cell[CellGroupData[{
-Cell[771256, 15119, 318, 6, 28, "Input",ExpressionUUID->"ccf791b6-042b-4249-b722-1a970a8e2766"],
-Cell[771577, 15127, 169, 3, 32, "Output",ExpressionUUID->"894cb9c0-03b4-4303-baca-4ec36faa0bb1"]
+Cell[767823, 15047, 274, 4, 28, "Input",ExpressionUUID->"f1b1770a-aae1-4e02-909b-fd2bc059cf32"],
+Cell[768100, 15053, 297, 4, 32, "Output",ExpressionUUID->"6c93feba-0c12-41f1-9756-e2cdfcb6905d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[771783, 15135, 387, 8, 68, "Input",ExpressionUUID->"33067f69-7044-4e46-b758-19747641bd1b"],
-Cell[772173, 15145, 124777, 2512, 579, "Output",ExpressionUUID->"e38c1d38-d70a-476b-b6c8-a4b7e8e263a0"]
+Cell[768434, 15062, 439, 7, 68, "Input",ExpressionUUID->"4edc6ba4-daac-44f0-a8da-4049445db8b3"],
+Cell[768876, 15071, 2272, 32, 498, "Output",ExpressionUUID->"1e62b497-32b3-4a07-bc20-ebf9a937e26b"]
+}, Open  ]],
+Cell[771163, 15106, 310, 7, 28, "Input",ExpressionUUID->"e812b52c-b202-4d87-be30-fd02f28a687e"],
+Cell[CellGroupData[{
+Cell[771498, 15117, 314, 5, 28, "Input",ExpressionUUID->"ccf791b6-042b-4249-b722-1a970a8e2766"],
+Cell[771815, 15124, 187, 2, 32, "Output",ExpressionUUID->"d04c5fdc-18f6-482c-ac3d-799617b36ad4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[896987, 17662, 448, 10, 28, "Input",ExpressionUUID->"a0975baa-fc36-488d-ab21-ccf1fafd1c99"],
-Cell[897438, 17674, 61190, 1171, 579, "Output",ExpressionUUID->"6e875dfb-1223-48be-b918-b6b98ec191c2"]
+Cell[772039, 15131, 383, 7, 68, "Input",ExpressionUUID->"33067f69-7044-4e46-b758-19747641bd1b"],
+Cell[772425, 15140, 124763, 2512, 579, "Output",ExpressionUUID->"246ab22a-4f05-4648-a69a-04d2c76abeeb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[958665, 18850, 417, 9, 48, "Input",ExpressionUUID->"fa005670-ac45-4d3a-b7b1-18d48bcbda4c"],
-Cell[959085, 18861, 1697, 44, 262, "Output",ExpressionUUID->"1700deb9-f66d-4dd5-af14-71fe249c58f1"]
+Cell[897225, 17657, 444, 9, 28, "Input",ExpressionUUID->"a0975baa-fc36-488d-ab21-ccf1fafd1c99"],
+Cell[897672, 17668, 61209, 1170, 579, "Output",ExpressionUUID->"17acd23b-dc42-4b95-af34-5401648ae6c5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[958918, 18843, 413, 8, 48, "Input",ExpressionUUID->"fa005670-ac45-4d3a-b7b1-18d48bcbda4c"],
+Cell[959334, 18853, 1715, 43, 262, "Output",ExpressionUUID->"6658a674-b69e-4194-8315-c0e2ecd8cbad"]
 }, Open  ]]
 }, Open  ]]
 }
