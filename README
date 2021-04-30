@@ -171,13 +171,15 @@ multiprocessing, so this is definitely the best way to run the calibration on an
 HPC facility. One the models have been run, worm4/worm4.nb can be run to analyze
 the csv files.
 
-The most important models are in worm5 and worm6. worm5 is the "attractant-only"
-model of the paper and worm6 is the "attractant+repellent" model. They come in
-slight variations, worm5a-worm5h and worm6a-worm6e. These differ mainly in
-dimensions. For instance, worm5g and worm6c are 1 cm square, 200,000 second
-version of the models, while worm5h and worm6e are 0.5 cm square 1e7 second
-versions. jobs to run these can be submitted with the scripts worm5g.sh,
-worm5h.sh, worm6c.sh and worm6e.sh. worm5hreseed.sh and worm6ereseed.sh can be
+The most important models are in worm5, worm6, and worm7. worm5 is the
+"attractant-only" model of the paper and worm6 is the
+"attractant+repellent" model. worm7 is the full-scale model. worm5 and
+worm6 come in slight variations, worm5a-worm5h and
+worm6a-worm6e. These differ mainly in dimensions. For instance, worm5g
+and worm6c are 1 cm square, 200,000 second version of the models,
+while worm5h and worm6e are 0.5 cm square 1e7 second versions. jobs to
+run these can be submitted with the scripts worm5g.sh, worm5h.sh,
+worm6c.sh and worm6e.sh. worm5hreseed.sh and worm6ereseed.sh can be
 used to run them with different random seeds, e.g.
 
     env SEED=11 sbatch worm5hreseed.sh
@@ -213,11 +215,15 @@ will create a directory worm5/sim5hseed11. Now you do the following:
 
 The spawn5h.sh job you just submitted will wait patiently for your
 worm5hreseed.sh job to time out. It will then run, storing its results in
-worm5/sim5hseed11-01. ASt the same time, it submits increments the STEP value
+worm5/sim5hseed11-01. At the same time, it submits increments the STEP value
 and submits spawn5h.sh to run again when step 01 completes. The end result
 should be a series of directories worm/sim5hseed11-01, 02, 03, ... until the
 entire simulation is finished. In principle. I always monitor the runs
 closely, though. 
+
+To start worm7a, do the following:
+
+   env SEED=123456 STEP=new sbatch spawn7a.sh
 
 EXPLANATIONS OF SOME ODD POINTS OF MODEL CONSTRUCTION
 
