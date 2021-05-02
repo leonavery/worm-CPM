@@ -225,6 +225,19 @@ To start worm7a, do the following:
 
    env SEED=123456 STEP=new sbatch spawn7a.sh
 
+These spawn scripts, unfortunately, do not deal with random number
+generation in a satisfactory way. morpheus does not save the state of
+the random number generator when it checkpoints. Thus, when resuming
+from a checkpoint, it is not possible to continue the random number
+sequence used heretofore. Worse, morpheus saves in checkpoints the
+RandomSeed value used to initiate the random number generator
+before. So, if you do nothing special, it will, on resumig nfrom a
+checkpoint, resuse random numbers used previously. This being the
+case, I elected in the spawn*.sh scripts to delete the RandomSeed from
+the checkpoint. This results in morpheus reseeding random numbers
+using the system timestamp. So you should indeed get an independent
+sequence of random numbers, but it will not be reproducible.
+
 EXPLANATIONS OF SOME ODD POINTS OF MODEL CONSTRUCTION
 
 First, you will notice that these models are set to start at t=1500 and finish
