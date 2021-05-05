@@ -8,7 +8,7 @@
 #SBATCH --nodes=1
 ##SBATCH --ntasks-per-node=4
 #SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=8G
+#SBATCH --mem-per-cpu=16G
 ##SBATCH --mem=0
 set -vx
 export NCPUS=$SLURM_CPUS_PER_TASK

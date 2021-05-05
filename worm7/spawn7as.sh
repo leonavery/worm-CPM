@@ -14,7 +14,7 @@ step=$2
 if [[ $step == "new" ]]; then
    nextsuffix="00"
    export CHECKPOINT=worm7a${seed}last.xml
-   cp $MODEL $CHECKPOINT
+   sed -e 's/RandomSeed value=\"[0-9]*\"/RandomSeed value=\"'${seed}'\"/' $MODEL > $CHECKPOINT
 else
    printf -v step '%02d' $step
 
