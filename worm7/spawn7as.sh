@@ -16,13 +16,13 @@ if [[ $step == "new" ]]; then
    export CHECKPOINT=worm7a${seed}last.xml
    sed -e 's/RandomSeed value=\"[0-9]*\"/RandomSeed value=\"'${seed}'\"/' $MODEL > $CHECKPOINT
 else
-   printf -v step '%02d' $step
+   printf -v step '%02d' $(( 10#$step ))
 
    export LASTDIR=$WORM7/sim7aseed${seed}-${step}
    if [[ ! -f $LASTDIR/inprogress ]]; then
        exit 0
    fi
-   printf -v nextsuffix '%02d' $(( step + 1 ))
+   printf -v nextsuffix '%02d' $(( 10#$step + 1 ))
    export CHECKPOINT=`ls $LASTDIR/*.xml.gz | grep -v ${seed}last.xml.gz | tail -n 1`
 fi
 export CPXML=worm7a${seed}last.xml

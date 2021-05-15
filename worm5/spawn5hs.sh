@@ -7,13 +7,13 @@ export WORM5=`realpath $MORPHEUS/worm5s`
 declare -i seed
 seed=$1
 
-printf -v step '%02d' $2
+printf -v step '%02d' $(( 10#$2 ))
 
 export LASTDIR=$WORM5/sim5hseed${seed}-${step}
 if [[ ! -f $LASTDIR/inprogress ]]; then
     exit 0
 fi
-printf -v nextsuffix '%02d' $(( step + 1 ))
+printf -v nextsuffix '%02d' $(( 10#$step + 1 ))
 export OUTDIR=$WORM5/sim5hseed${seed}-${nextsuffix}
 rm -rf $OUTDIR
 mkdir -p $OUTDIR
